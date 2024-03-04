@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Skola\\ASP.NET_1\\Silicon\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{49B6CC94-16DD-4420-A6D4-2FEDD0E8E337}|WebApp\\WebApp.csproj|c:\\skola\\asp.net_1\\silicon\\webapp\\views\\partials\\sections\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{49B6CC94-16DD-4420-A6D4-2FEDD0E8E337}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\partials\\sections\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\Views\\Partials\\Sections\\_Footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApp\\Views\\Partials\\Sections\\_Footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49B6CC94-16DD-4420-A6D4-2FEDD0E8E337}|WebApp\\WebApp.csproj|c:\\skola\\asp.net_1\\silicon\\webapp\\wwwroot\\css\\scss\\cores\\_general.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
-      "RelativeMoniker": "D:0:0:{49B6CC94-16DD-4420-A6D4-2FEDD0E8E337}|WebApp\\WebApp.csproj|solutionrelative:webapp\\wwwroot\\css\\scss\\cores\\_general.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\css\\scss\\components\\_buttons.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApp\\wwwroot\\css\\scss\\components\\_buttons.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49B6CC94-16DD-4420-A6D4-2FEDD0E8E337}|WebApp\\WebApp.csproj|c:\\skola\\asp.net_1\\silicon\\webapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{49B6CC94-16DD-4420-A6D4-2FEDD0E8E337}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\Views\\Shared\\_Layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApp\\Views\\Shared\\_Layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49B6CC94-16DD-4420-A6D4-2FEDD0E8E337}|WebApp\\WebApp.csproj|c:\\skola\\asp.net_1\\silicon\\webapp\\wwwroot\\css\\scss\\components\\_buttons.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
-      "RelativeMoniker": "D:0:0:{49B6CC94-16DD-4420-A6D4-2FEDD0E8E337}|WebApp\\WebApp.csproj|solutionrelative:webapp\\wwwroot\\css\\scss\\components\\_buttons.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\css\\scss\\cores\\_general.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApp\\wwwroot\\css\\scss\\cores\\_general.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +34,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "_buttons.scss",
               "DocumentMoniker": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\css\\scss\\components\\_buttons.scss",
               "RelativeDocumentMoniker": "WebApp\\wwwroot\\css\\scss\\components\\_buttons.scss",
@@ -60,7 +60,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "_general.scss",
               "DocumentMoniker": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\css\\scss\\cores\\_general.scss",
               "RelativeDocumentMoniker": "WebApp\\wwwroot\\css\\scss\\cores\\_general.scss",
@@ -79,7 +79,7 @@
               "RelativeDocumentMoniker": "WebApp\\Views\\Partials\\Sections\\_Footer.cshtml",
               "ToolTip": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\Views\\Partials\\Sections\\_Footer.cshtml",
               "RelativeToolTip": "WebApp\\Views\\Partials\\Sections\\_Footer.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAKAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-03-04T13:42:51.053Z",
               "EditorCaption": ""
