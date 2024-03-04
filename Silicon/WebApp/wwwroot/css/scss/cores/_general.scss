@@ -1,0 +1,21 @@
+﻿*,*::before,*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--font-manrope);
+    font-size: 16px;
+    font-weight: 400;
+    background-color: var(--color-white);
+    color: var(--color-gray-900);
+}
+
+
+.wrapper {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
