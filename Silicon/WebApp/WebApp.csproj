@@ -13,7 +13,6 @@
   <ItemGroup>
     <Folder Include="Models\" />
     <Folder Include="Views\Partials\Components\" />
-    <Folder Include="wwwroot\css\scss\sections\" />
   </ItemGroup>
 
   <ItemGroup>
