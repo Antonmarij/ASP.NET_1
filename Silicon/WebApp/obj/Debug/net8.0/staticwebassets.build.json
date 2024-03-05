@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "s6rx3Hq6JUNTUPDevGh/Kxg7gO6sic3EezpDozZkBAc=",
+  "Hash": "SW1+74a8kT0k4P3sd47lodey9nvVYqC2wFv7jn1qMZY=",
   "Source": "WebApp",
   "BasePath": "_content/WebApp",
   "Mode": "Default",
@@ -262,6 +262,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.scss"
+    },
+    {
+      "Identity": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\logos\\solid.svg",
+      "SourceId": "WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\",
+      "BasePath": "_content/WebApp",
+      "RelativePath": "images/logos/solid.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\logos\\solid.svg"
     },
     {
       "Identity": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\js\\site.js",
