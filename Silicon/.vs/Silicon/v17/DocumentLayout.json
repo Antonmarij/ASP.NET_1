@@ -7,12 +7,8 @@
       "RelativeMoniker": "D:0:0:{49B6CC94-16DD-4420-A6D4-2FEDD0E8E337}|WebApp\\WebApp.csproj|solutionrelative:webapp\\wwwroot\\css\\scss\\sections\\_header.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49B6CC94-16DD-4420-A6D4-2FEDD0E8E337}|WebApp\\WebApp.csproj|c:\\skola\\asp.net_1\\silicon\\webapp\\wwwroot\\css\\scss\\components\\_buttons.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
-      "RelativeMoniker": "D:0:0:{49B6CC94-16DD-4420-A6D4-2FEDD0E8E337}|WebApp\\WebApp.csproj|solutionrelative:webapp\\wwwroot\\css\\scss\\components\\_buttons.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49B6CC94-16DD-4420-A6D4-2FEDD0E8E337}|WebApp\\WebApp.csproj|c:\\skola\\asp.net_1\\silicon\\webapp\\views\\partials\\sections\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{49B6CC94-16DD-4420-A6D4-2FEDD0E8E337}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\partials\\sections\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{49B6CC94-16DD-4420-A6D4-2FEDD0E8E337}|WebApp\\WebApp.csproj|c:\\skola\\asp.net_1\\silicon\\webapp\\views\\partials\\sections\\_showcase.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{49B6CC94-16DD-4420-A6D4-2FEDD0E8E337}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\partials\\sections\\_showcase.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,24 +18,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 290,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_buttons.scss",
-              "DocumentMoniker": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\css\\scss\\components\\_buttons.scss",
-              "RelativeDocumentMoniker": "WebApp\\wwwroot\\css\\scss\\components\\_buttons.scss",
-              "ToolTip": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\css\\scss\\components\\_buttons.scss",
-              "RelativeToolTip": "WebApp\\wwwroot\\css\\scss\\components\\_buttons.scss",
-              "ViewState": "AQIAADMAAAAAAAAAAAAAAE0AAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
-              "WhenOpened": "2024-03-05T10:33:04.597Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -49,22 +32,22 @@
               "RelativeDocumentMoniker": "WebApp\\wwwroot\\css\\scss\\sections\\_header.scss",
               "ToolTip": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_header.scss",
               "RelativeToolTip": "WebApp\\wwwroot\\css\\scss\\sections\\_header.scss",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAaAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
-              "WhenOpened": "2024-03-05T10:05:10.733Z",
+              "WhenOpened": "2024-03-10T20:13:25.418Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_Header.cshtml",
-              "DocumentMoniker": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\Views\\Partials\\Sections\\_Header.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Views\\Partials\\Sections\\_Header.cshtml",
-              "ToolTip": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\Views\\Partials\\Sections\\_Header.cshtml",
-              "RelativeToolTip": "WebApp\\Views\\Partials\\Sections\\_Header.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABOAAAA",
+              "DocumentIndex": 1,
+              "Title": "_Showcase.cshtml",
+              "DocumentMoniker": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\Views\\Partials\\Sections\\_Showcase.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Partials\\Sections\\_Showcase.cshtml",
+              "ToolTip": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\Views\\Partials\\Sections\\_Showcase.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Partials\\Sections\\_Showcase.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-05T10:05:06.493Z",
+              "WhenOpened": "2024-03-10T20:08:39.621Z",
               "EditorCaption": ""
             }
           ]

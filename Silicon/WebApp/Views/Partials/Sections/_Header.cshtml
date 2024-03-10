@@ -3,10 +3,19 @@
         <a class="logo" asp-action="Home" asp-controller="Default"><img src="~/images/logos/solid.svg" alt="Silicon"/></a>
 
         <nav>
-            <a asp-action="Home" asp-controller="Default">Overview</a>
-            <a asp-action="Home" asp-controller="Default">Features</a>
-            <a asp-action="Contact" asp-controller="Default">Contact</a>
+            <a asp-action="Home" asp-controller="Default" class="nav-link">Overview</a>
+            <a asp-action="Home" asp-controller="Default" class="nav-link">Features</a>
+            <a asp-action="Contact" asp-controller="Default" class="nav-link">Contact</a>
         </nav>
+
+        <div class="theme-switch">
+            <label for="theme-switch-mode">Light</label>
+            <label class="switch">
+                <input id="theme-switch-mode" type="checkbox" />
+                <span class="slider round"></span>
+            </label>
+            <label for="theme-switch-mode">Dark</label>
+        </div>
 
         <div class="account-buttons">
             <a class="btn-theme-secondary btn-small" asp-action="SignIn" asp-controller="Auth"><i class="fa-regular fa-arrow-right-to-bracket"></i>Sign in</a>
