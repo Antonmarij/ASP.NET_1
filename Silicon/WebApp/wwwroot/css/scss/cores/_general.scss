@@ -51,5 +51,11 @@ a {
     grid-template-rows: auto 1fr auto;
 }
 
-
+a {
+    color: var(--color-theme);
+    &:hover {
+        text-decoration: none;
+    }
 }
+
+

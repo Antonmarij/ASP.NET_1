@@ -11,8 +11,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Models\" />
     <Folder Include="wwwroot\images\brands\" />
+    <Folder Include="wwwroot\images\icons\" />
     <Folder Include="wwwroot\images\taskmaster\" />
   </ItemGroup>
 
