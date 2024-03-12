@@ -57,6 +57,10 @@
       "PackagePath": "staticwebassets\\css\\scss\\cores\\_typography.scss"
     },
     {
+      "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_apps.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\sections\\_apps.scss"
+    },
+    {
       "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_footer.scss",
       "PackagePath": "staticwebassets\\css\\scss\\sections\\_footer.scss"
     },
@@ -99,6 +103,10 @@
     {
       "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\css\\site.scss",
       "PackagePath": "staticwebassets\\css\\site.scss"
+    },
+    {
+      "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\apps\\iphone.svg",
+      "PackagePath": "staticwebassets\\images\\apps\\iphone.svg"
     },
     {
       "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\brands\\brand-logo_1.svg",

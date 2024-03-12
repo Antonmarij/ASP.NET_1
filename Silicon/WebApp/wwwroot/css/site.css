@@ -854,3 +854,10 @@ footer .container .copyright span {
   padding: 15px;
   width: 20%;
 }
+
+.download {
+  background-color: var(--color-gray-100);
+}
+.download .container {
+  background-color: var(--color-gray-200);
+}

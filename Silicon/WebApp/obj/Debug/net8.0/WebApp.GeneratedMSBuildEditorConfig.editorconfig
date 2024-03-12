@@ -30,6 +30,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVmYXVsdFxIb21lLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Skola/ASP.NET_1/Silicon/WebApp/Views/Partials/Sections/_Apps.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcU2VjdGlvbnNcX0FwcHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Skola/ASP.NET_1/Silicon/WebApp/Views/Partials/Sections/_Footer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcU2VjdGlvbnNcX0Zvb3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

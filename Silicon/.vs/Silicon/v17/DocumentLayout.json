@@ -1,7 +1,20 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Skola\\ASP.NET_1\\Silicon\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{49B6CC94-16DD-4420-A6D4-2FEDD0E8E337}|WebApp\\WebApp.csproj|c:\\skola\\asp.net_1\\silicon\\webapp\\views\\partials\\sections\\_apps.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{49B6CC94-16DD-4420-A6D4-2FEDD0E8E337}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\partials\\sections\\_apps.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49B6CC94-16DD-4420-A6D4-2FEDD0E8E337}|WebApp\\WebApp.csproj|c:\\skola\\asp.net_1\\silicon\\webapp\\wwwroot\\css\\scss\\sections\\_apps.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
+      "RelativeMoniker": "D:0:0:{49B6CC94-16DD-4420-A6D4-2FEDD0E8E337}|WebApp\\WebApp.csproj|solutionrelative:webapp\\wwwroot\\css\\scss\\sections\\_apps.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49B6CC94-16DD-4420-A6D4-2FEDD0E8E337}|WebApp\\WebApp.csproj|c:\\skola\\asp.net_1\\silicon\\webapp\\wwwroot\\css\\scss\\sections\\_tools.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
+      "RelativeMoniker": "D:0:0:{49B6CC94-16DD-4420-A6D4-2FEDD0E8E337}|WebApp\\WebApp.csproj|solutionrelative:webapp\\wwwroot\\css\\scss\\sections\\_tools.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
@@ -9,11 +22,56 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Apps.cshtml",
+              "DocumentMoniker": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\Views\\Partials\\Sections\\_Apps.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Partials\\Sections\\_Apps.cshtml",
+              "ToolTip": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\Views\\Partials\\Sections\\_Apps.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Partials\\Sections\\_Apps.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-12T20:48:38.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_apps.scss",
+              "DocumentMoniker": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_apps.scss",
+              "RelativeDocumentMoniker": "WebApp\\wwwroot\\css\\scss\\sections\\_apps.scss",
+              "ToolTip": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_apps.scss",
+              "RelativeToolTip": "WebApp\\wwwroot\\css\\scss\\sections\\_apps.scss",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
+              "WhenOpened": "2024-03-12T21:02:05.361Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_tools.scss",
+              "DocumentMoniker": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_tools.scss",
+              "RelativeDocumentMoniker": "WebApp\\wwwroot\\css\\scss\\sections\\_tools.scss",
+              "ToolTip": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_tools.scss",
+              "RelativeToolTip": "WebApp\\wwwroot\\css\\scss\\sections\\_tools.scss",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
+              "WhenOpened": "2024-03-12T20:56:22.237Z",
+              "EditorCaption": ""
             }
           ]
         }
