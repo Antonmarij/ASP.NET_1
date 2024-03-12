@@ -65,8 +65,20 @@
       "PackagePath": "staticwebassets\\css\\scss\\sections\\_header.scss"
     },
     {
+      "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_manage.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\sections\\_manage.scss"
+    },
+    {
+      "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_modes.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\sections\\_modes.scss"
+    },
+    {
       "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_showcase.scss",
       "PackagePath": "staticwebassets\\css\\scss\\sections\\_showcase.scss"
+    },
+    {
+      "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_signin.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\sections\\_signin.scss"
     },
     {
       "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_signup.scss",
@@ -105,6 +117,10 @@
       "PackagePath": "staticwebassets\\images\\brands\\brand-logo_4.svg"
     },
     {
+      "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\icons\\check_circle.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\check_circle.svg"
+    },
+    {
       "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\icons\\icon_1.svg",
       "PackagePath": "staticwebassets\\images\\icons\\icon_1.svg"
     },
@@ -131,6 +147,26 @@
     {
       "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\logos\\solid.svg",
       "PackagePath": "staticwebassets\\images\\logos\\solid.svg"
+    },
+    {
+      "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\mode\\mode_dark.svg",
+      "PackagePath": "staticwebassets\\images\\mode\\mode_dark.svg"
+    },
+    {
+      "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\mode\\mode_light.svg",
+      "PackagePath": "staticwebassets\\images\\mode\\mode_light.svg"
+    },
+    {
+      "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\mode\\mode_screen.svg",
+      "PackagePath": "staticwebassets\\images\\mode\\mode_screen.svg"
+    },
+    {
+      "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\mode\\mode_switch.svg",
+      "PackagePath": "staticwebassets\\images\\mode\\mode_switch.svg"
+    },
+    {
+      "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\taskmaster\\taskmaster-straight.svg",
+      "PackagePath": "staticwebassets\\images\\taskmaster\\taskmaster-straight.svg"
     },
     {
       "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\taskmaster\\taskmaster-twisted.svg",

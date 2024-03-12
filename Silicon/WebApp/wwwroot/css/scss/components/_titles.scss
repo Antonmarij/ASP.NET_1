@@ -9,3 +9,26 @@
         color: var(--color-gray-600);
     }
 }
+
+.mode-title {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /*display: flex;
+    justify-content: center;*/
+
+    .light-text {
+        color: var(--color-white);
+        margin-left: 45%;
+    }
+
+    .dark-text {
+        color: var(--color-black);
+        margin-right: 45%;
+        padding-left: 10px;
+        text-shadow: 0px 2px 2px;
+    }
+
+    @include xl {
+        white-space: nowrap;
+    }
+}

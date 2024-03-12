@@ -1,0 +1,55 @@
+﻿.manage {
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    @include xl {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "image content";
+    }
+
+    .manage-image {
+        grid-area: image;
+        width: 70%;
+        margin-left: 20%;
+    }
+
+    .container {
+        display: grid;
+        grid-area: content;
+        grid-template-columns: 1fr;
+
+        .content {
+            font-size: 1rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            
+
+            .check-icon {
+                padding-right: 10px;
+                vertical-align: middle;
+            }
+
+            .list {
+               display: flex;
+               flex-direction: column;
+            }
+
+            p {
+                padding-top: 10px;
+                color: var(--color-gray-700);
+                display: flex;
+                align-items: center;
+            }
+
+            .btn-theme {
+                display: flex;
+                justify-content: center;
+                margin-top: 40px;
+                padding: 15px;
+                width: 20%;
+            }
+        }
+    }
+}

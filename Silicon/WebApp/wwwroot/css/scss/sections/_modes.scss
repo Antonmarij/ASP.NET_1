@@ -1,0 +1,16 @@
+﻿.mode {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: linear-gradient(to right, #0B0F19 50%, #FFFFFF 50%);
+
+    @include xl {
+        display: flex;
+        justify-content: center
+    }
+
+    .mode-image {
+        margin-left: 15%;
+        width: 70%;
+
+    }
+}

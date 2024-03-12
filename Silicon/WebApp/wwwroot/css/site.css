@@ -180,6 +180,28 @@ h6 {
   color: var(--color-gray-600);
 }
 
+.mode-title {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /*display: flex;
+  justify-content: center;*/
+}
+.mode-title .light-text {
+  color: var(--color-white);
+  margin-left: 45%;
+}
+.mode-title .dark-text {
+  color: var(--color-black);
+  margin-right: 45%;
+  padding-left: 10px;
+  text-shadow: 0px 2px 2px;
+}
+@media (min-width: 1200px) {
+  .mode-title {
+    white-space: nowrap;
+  }
+}
+
 .btn-socialmedia {
   display: flex;
   justify-content: center;
@@ -727,4 +749,108 @@ footer .container .copyright span {
 }
 .signup .container form .form-content button {
   grid-area: submit;
+}
+
+.signin {
+  margin-bottom: 50px;
+}
+.signin .container {
+  width: 95%;
+  display: flex;
+  justify-content: center;
+}
+@media (min-width: 768px) {
+  .signin .container {
+    width: 50%;
+  }
+}
+@media (min-width: 1200px) {
+  .signin .container {
+    width: 80%;
+  }
+}
+@media (min-width: 1200px) {
+  .signin .container form {
+    width: 50%;
+  }
+}
+.signin .container form h1 {
+  margin-bottom: 0;
+}
+.signin .container form .form-content {
+  margin-top: 30px;
+  gap: 20px;
+}
+.signin .container form .form-content .checkbox-group {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.signin .container form .form-content button {
+  width: 100%;
+  grid-area: submit;
+}
+
+.mode {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: linear-gradient(to right, #0B0F19 50%, #FFFFFF 50%);
+}
+@media (min-width: 1200px) {
+  .mode {
+    display: flex;
+    justify-content: center;
+  }
+}
+.mode .mode-image {
+  margin-left: 15%;
+  width: 70%;
+}
+
+.manage {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+@media (min-width: 1200px) {
+  .manage {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "image content";
+  }
+}
+.manage .manage-image {
+  grid-area: image;
+  width: 70%;
+  margin-left: 20%;
+}
+.manage .container {
+  display: grid;
+  grid-area: content;
+  grid-template-columns: 1fr;
+}
+.manage .container .content {
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.manage .container .content .check-icon {
+  padding-right: 10px;
+  vertical-align: middle;
+}
+.manage .container .content .list {
+  display: flex;
+  flex-direction: column;
+}
+.manage .container .content p {
+  padding-top: 10px;
+  color: var(--color-gray-700);
+  display: flex;
+  align-items: center;
+}
+.manage .container .content .btn-theme {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  padding: 15px;
+  width: 20%;
 }
