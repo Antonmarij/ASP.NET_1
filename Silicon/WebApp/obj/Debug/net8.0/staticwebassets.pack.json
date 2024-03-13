@@ -69,12 +69,20 @@
       "PackagePath": "staticwebassets\\css\\scss\\sections\\_header.scss"
     },
     {
+      "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_integrate.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\sections\\_integrate.scss"
+    },
+    {
       "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_manage.scss",
       "PackagePath": "staticwebassets\\css\\scss\\sections\\_manage.scss"
     },
     {
       "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_modes.scss",
       "PackagePath": "staticwebassets\\css\\scss\\sections\\_modes.scss"
+    },
+    {
+      "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_newsletter.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\sections\\_newsletter.scss"
     },
     {
       "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_showcase.scss",
@@ -133,8 +141,28 @@
       "PackagePath": "staticwebassets\\images\\brands\\brand-logo_4.svg"
     },
     {
+      "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\icons\\arrows.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\arrows.svg"
+    },
+    {
       "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\icons\\check_circle.svg",
       "PackagePath": "staticwebassets\\images\\icons\\check_circle.svg"
+    },
+    {
+      "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\icons\\dropbox.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\dropbox.svg"
+    },
+    {
+      "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\icons\\evernote.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\evernote.svg"
+    },
+    {
+      "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\icons\\gmail.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\gmail.svg"
+    },
+    {
+      "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\icons\\google.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\google.svg"
     },
     {
       "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\icons\\icon_1.svg",
@@ -161,8 +189,24 @@
       "PackagePath": "staticwebassets\\images\\icons\\icon_6.svg"
     },
     {
+      "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\icons\\mailchimp.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\mailchimp.svg"
+    },
+    {
+      "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\icons\\slack.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\slack.svg"
+    },
+    {
       "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\icons\\stars.svg",
       "PackagePath": "staticwebassets\\images\\icons\\stars.svg"
+    },
+    {
+      "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\icons\\trello.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\trello.svg"
+    },
+    {
+      "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\icons\\zoom.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\zoom.svg"
     },
     {
       "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\logos\\solid.svg",

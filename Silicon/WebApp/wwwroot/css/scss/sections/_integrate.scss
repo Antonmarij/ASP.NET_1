@@ -1,1 +1,22 @@
-﻿
+﻿.integrate {
+    padding: 50px 0;
+
+    .container {
+        text-align: center;
+
+        .integrate-tools {
+            margin-top: 40px;
+            display: grid;
+            grid-template-columns: 1fr;
+
+            @include md {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            @include xl {
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+            }
+        }
+    }
+
+}

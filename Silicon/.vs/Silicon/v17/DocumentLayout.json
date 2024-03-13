@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Skola\\ASP.NET_1\\Silicon\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{49B6CC94-16DD-4420-A6D4-2FEDD0E8E337}|WebApp\\WebApp.csproj|c:\\skola\\asp.net_1\\silicon\\webapp\\wwwroot\\css\\scss\\sections\\_integrate.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
-      "RelativeMoniker": "D:0:0:{49B6CC94-16DD-4420-A6D4-2FEDD0E8E337}|WebApp\\WebApp.csproj|solutionrelative:webapp\\wwwroot\\css\\scss\\sections\\_integrate.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
+      "AbsoluteMoniker": "D:0:0:{49B6CC94-16DD-4420-A6D4-2FEDD0E8E337}|WebApp\\WebApp.csproj|c:\\skola\\asp.net_1\\silicon\\webapp\\wwwroot\\css\\scss\\sections\\_newsletter.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
+      "RelativeMoniker": "D:0:0:{49B6CC94-16DD-4420-A6D4-2FEDD0E8E337}|WebApp\\WebApp.csproj|solutionrelative:webapp\\wwwroot\\css\\scss\\sections\\_newsletter.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49B6CC94-16DD-4420-A6D4-2FEDD0E8E337}|WebApp\\WebApp.csproj|c:\\skola\\asp.net_1\\silicon\\webapp\\views\\partials\\sections\\_integrate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{49B6CC94-16DD-4420-A6D4-2FEDD0E8E337}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\partials\\sections\\_integrate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49B6CC94-16DD-4420-A6D4-2FEDD0E8E337}|WebApp\\WebApp.csproj|c:\\skola\\asp.net_1\\silicon\\webapp\\wwwroot\\css\\scss\\_sections.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
-      "RelativeMoniker": "D:0:0:{49B6CC94-16DD-4420-A6D4-2FEDD0E8E337}|WebApp\\WebApp.csproj|solutionrelative:webapp\\wwwroot\\css\\scss\\_sections.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
+      "AbsoluteMoniker": "D:0:0:{49B6CC94-16DD-4420-A6D4-2FEDD0E8E337}|WebApp\\WebApp.csproj|c:\\skola\\asp.net_1\\silicon\\webapp\\views\\partials\\sections\\_newsletter.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{49B6CC94-16DD-4420-A6D4-2FEDD0E8E337}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\partials\\sections\\_newsletter.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,40 +27,33 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_integrate.scss",
-              "DocumentMoniker": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_integrate.scss",
-              "RelativeDocumentMoniker": "WebApp\\wwwroot\\css\\scss\\sections\\_integrate.scss",
-              "ToolTip": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_integrate.scss",
-              "RelativeToolTip": "WebApp\\wwwroot\\css\\scss\\sections\\_integrate.scss",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "_newsletter.scss",
+              "DocumentMoniker": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_newsletter.scss",
+              "RelativeDocumentMoniker": "WebApp\\wwwroot\\css\\scss\\sections\\_newsletter.scss",
+              "ToolTip": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_newsletter.scss",
+              "RelativeToolTip": "WebApp\\wwwroot\\css\\scss\\sections\\_newsletter.scss",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB0AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
-              "WhenOpened": "2024-03-13T12:33:26.578Z",
+              "WhenOpened": "2024-03-13T13:31:07.39Z",
               "EditorCaption": ""
-            },
+            }
+          ]
+        },
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "_Integrate.cshtml",
-              "DocumentMoniker": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\Views\\Partials\\Sections\\_Integrate.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Views\\Partials\\Sections\\_Integrate.cshtml",
-              "ToolTip": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\Views\\Partials\\Sections\\_Integrate.cshtml",
-              "RelativeToolTip": "WebApp\\Views\\Partials\\Sections\\_Integrate.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAKAAAA",
+              "Title": "_Newsletter.cshtml",
+              "DocumentMoniker": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\Views\\Partials\\Sections\\_Newsletter.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Partials\\Sections\\_Newsletter.cshtml",
+              "ToolTip": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\Views\\Partials\\Sections\\_Newsletter.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Partials\\Sections\\_Newsletter.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACAAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-13T12:32:35.413Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_sections.scss",
-              "DocumentMoniker": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\css\\scss\\_sections.scss",
-              "RelativeDocumentMoniker": "WebApp\\wwwroot\\css\\scss\\_sections.scss",
-              "ToolTip": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\css\\scss\\_sections.scss",
-              "RelativeToolTip": "WebApp\\wwwroot\\css\\scss\\_sections.scss",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
-              "WhenOpened": "2024-03-13T12:31:56.358Z",
+              "WhenOpened": "2024-03-13T13:30:58.461Z",
               "EditorCaption": ""
             }
           ]

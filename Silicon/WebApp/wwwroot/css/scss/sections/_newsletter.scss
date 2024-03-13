@@ -1,0 +1,41 @@
+﻿.newsletter-signup {
+    background-color: var(--color-gray-100);
+    padding: 50px 0;
+
+    .container {
+        text-align: center;
+
+        .section-title {
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+
+            .down-arrow {
+                margin-left: 20px;
+            }
+        }
+
+        .content {
+            margin-top: 40px;
+            display: grid;
+            grid-template-columns: 1fr;
+
+            p {
+                color: var(--color-gray-600);
+            }
+
+            label {
+                color: var(--color-gray-700);
+            }
+            
+
+            @include xl {
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+
+            .checkboxes {
+                
+            }
+        }
+    }
+}

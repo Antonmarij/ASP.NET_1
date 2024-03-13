@@ -173,6 +173,26 @@ h6 {
   border-radius: 8px;
 }
 
+.integrate-box {
+  padding: 20px;
+  transition: box-shadow 0.1s ease-in-out;
+}
+.integrate-box:hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+.integrate-box:hover {
+  /*border: 1px solid var(--color-gray-200);
+  border-radius: 8px;*/
+}
+.integrate-box h5 {
+  font-size: 20px;
+  margin: 0;
+}
+.integrate-box img {
+  padding: 20px;
+  margin: 20px;
+}
+
 .section-title {
   text-align: center;
 }
@@ -881,4 +901,58 @@ footer .container .copyright span {
 }
 .download .content p {
   color: var(--color-gray-700);
+}
+
+.integrate {
+  padding: 50px 0;
+}
+.integrate .container {
+  text-align: center;
+}
+.integrate .container .integrate-tools {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+@media (min-width: 768px) {
+  .integrate .container .integrate-tools {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 1200px) {
+  .integrate .container .integrate-tools {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+.newsletter-signup {
+  background-color: var(--color-gray-100);
+  padding: 50px 0;
+}
+.newsletter-signup .container {
+  text-align: center;
+}
+.newsletter-signup .container .section-title {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.newsletter-signup .container .section-title .down-arrow {
+  margin-left: 20px;
+}
+.newsletter-signup .container .content {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.newsletter-signup .container .content p {
+  color: var(--color-gray-600);
+}
+.newsletter-signup .container .content label {
+  color: var(--color-gray-700);
+}
+@media (min-width: 1200px) {
+  .newsletter-signup .container .content {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
