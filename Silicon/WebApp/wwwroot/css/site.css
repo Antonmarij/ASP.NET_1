@@ -794,6 +794,7 @@ footer .container .copyright span {
   padding-top: 30px;
   padding-bottom: 30px;
   background: linear-gradient(to right, #0B0F19 50%, #FFFFFF 50%);
+  font-size: 1rem;
 }
 @media (min-width: 1200px) {
   .mode {
@@ -860,4 +861,24 @@ footer .container .copyright span {
 }
 .download .container {
   background-color: var(--color-gray-200);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "phone text stores";
+}
+.download .container .text-box {
+  padding-top: 50px;
+  display: grid;
+  grid-area: text;
+}
+.download .container .app-download {
+  grid-area: stores;
+  display: flex;
+  justify-content: flex-end;
+}
+.download .content {
+  padding-top: 60px;
+  padding-left: 30px;
+}
+.download .content p {
+  color: var(--color-gray-700);
 }

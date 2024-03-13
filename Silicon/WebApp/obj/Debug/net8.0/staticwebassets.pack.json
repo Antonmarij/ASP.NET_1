@@ -105,6 +105,14 @@
       "PackagePath": "staticwebassets\\css\\site.scss"
     },
     {
+      "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\apps\\appstore.svg",
+      "PackagePath": "staticwebassets\\images\\apps\\appstore.svg"
+    },
+    {
+      "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\apps\\googleplay.svg",
+      "PackagePath": "staticwebassets\\images\\apps\\googleplay.svg"
+    },
+    {
       "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\apps\\iphone.svg",
       "PackagePath": "staticwebassets\\images\\apps\\iphone.svg"
     },
@@ -151,6 +159,10 @@
     {
       "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\icons\\icon_6.svg",
       "PackagePath": "staticwebassets\\images\\icons\\icon_6.svg"
+    },
+    {
+      "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\icons\\stars.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\stars.svg"
     },
     {
       "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\logos\\solid.svg",

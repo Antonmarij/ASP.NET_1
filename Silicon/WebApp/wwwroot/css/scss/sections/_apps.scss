@@ -3,5 +3,33 @@
     
     .container {
         background-color: var(--color-gray-200);
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: "phone text stores";
+
+        .text-box {
+            padding-top: 50px;
+            display: grid;
+            grid-area: text;
+        }
+
+        .app-download {
+            grid-area: stores;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+
+    }
+
+    .content {
+        padding-top: 60px;
+        padding-left: 30px;
+
+
+        p {
+            color: var(--color-gray-700);
+        }
+        
     }
 }
