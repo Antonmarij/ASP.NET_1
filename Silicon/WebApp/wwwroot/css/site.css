@@ -890,10 +890,11 @@ footer .container .copyright span {
   display: grid;
   grid-area: text;
 }
-.download .container .app-download {
-  grid-area: stores;
-  display: flex;
-  justify-content: flex-end;
+.download .container .app-button {
+  padding-top: 10px;
+}
+.download .container .app-button:hover {
+  cursor: pointer;
 }
 .download .content {
   padding-top: 60px;
@@ -929,9 +930,6 @@ footer .container .copyright span {
   background-color: var(--color-gray-100);
   padding: 50px 0;
 }
-.newsletter-signup .container {
-  text-align: center;
-}
 .newsletter-signup .container .section-title {
   display: flex;
   justify-content: center;
@@ -943,16 +941,22 @@ footer .container .copyright span {
 .newsletter-signup .container .content {
   margin-top: 40px;
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "sign boxes";
+}
+@media (min-width: 1200px) {
+  .newsletter-signup .container .content {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.newsletter-signup .container .content .sub {
+  grid-area: sign;
+  display: flex;
+  align-items: center;
 }
 .newsletter-signup .container .content p {
   color: var(--color-gray-600);
 }
 .newsletter-signup .container .content label {
   color: var(--color-gray-700);
-}
-@media (min-width: 1200px) {
-  .newsletter-signup .container .content {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
 }

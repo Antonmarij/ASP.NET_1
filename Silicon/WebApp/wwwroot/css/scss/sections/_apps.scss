@@ -1,6 +1,6 @@
 ﻿.download {
     background-color: var(--color-gray-100);
-    
+
     .container {
         background-color: var(--color-gray-200);
         display: grid;
@@ -13,10 +13,12 @@
             grid-area: text;
         }
 
-        .app-download {
-            grid-area: stores;
-            display: flex;
-            justify-content: flex-end;
+        .app-button {
+            padding-top: 10px;
+
+            &:hover{
+                cursor: pointer;
+            }
         }
 
 
@@ -30,6 +32,5 @@
         p {
             color: var(--color-gray-700);
         }
-        
     }
 }

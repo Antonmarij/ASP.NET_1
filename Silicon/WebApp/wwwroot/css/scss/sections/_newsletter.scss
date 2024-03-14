@@ -3,7 +3,6 @@
     padding: 50px 0;
 
     .container {
-        text-align: center;
 
         .section-title {
             display: flex;
@@ -18,7 +17,18 @@
         .content {
             margin-top: 40px;
             display: grid;
-            grid-template-columns: 1fr;
+            grid-template-columns: 1fr 1fr;
+            grid-template-areas: "sign boxes";
+
+            @include xl {
+                grid-template-columns: repeat(3, 1fr);
+            }
+
+            .sub {
+                grid-area: sign;
+                display: flex;
+                align-items: center;
+            }
 
             p {
                 color: var(--color-gray-600);
@@ -27,14 +37,12 @@
             label {
                 color: var(--color-gray-700);
             }
-            
 
-            @include xl {
-                grid-template-columns: 1fr 1fr 1fr;
-            }
+
+
 
             .checkboxes {
-                
+
             }
         }
     }
