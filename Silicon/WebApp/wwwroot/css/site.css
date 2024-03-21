@@ -926,37 +926,43 @@ footer .container .copyright span {
   }
 }
 
-.newsletter-signup {
+.subscribe {
   background-color: var(--color-gray-100);
-  padding: 50px 0;
+  padding: 4rem 0;
 }
-.newsletter-signup .container .section-title {
+.subscribe .container {
+  width: 55%;
+}
+.subscribe .container .title {
   display: flex;
   justify-content: center;
-  padding: 10px;
-}
-.newsletter-signup .container .section-title .down-arrow {
-  margin-left: 20px;
-}
-.newsletter-signup .container .content {
-  margin-top: 40px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-areas: "sign boxes";
-}
-@media (min-width: 1200px) {
-  .newsletter-signup .container .content {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-.newsletter-signup .container .content .sub {
-  grid-area: sign;
-  display: flex;
   align-items: center;
+  gap: 20px;
 }
-.newsletter-signup .container .content p {
-  color: var(--color-gray-600);
+.subscribe .container form .alternative {
+  margin: 2rem 0;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
 }
-.newsletter-signup .container .content label {
-  color: var(--color-gray-700);
+.subscribe .container form .alternative .options {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.subscribe .container form .email {
+  display: grid;
+  align-items: start;
+  grid-template-columns: 1fr auto;
+  gap: 1.5rem;
+}
+.subscribe .container form .email .input-group {
+  position: relative;
+}
+.subscribe .container form .email .input-group i {
+  position: absolute;
+  left: 20px;
+  top: 17px;
+  font-size: 1.3em;
+}
+.subscribe .container form .email .input-group input {
+  padding-left: 55px;
 }

@@ -1,10 +1,17 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Infrastructure.Entities;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using WebApp.Models;
 
 namespace WebApp.Controllers;
 
-public class AuthController : Controller
+public class AuthController(UserManager<UserEntity> userManager, SignInManager<UserEntity> signInManager) : Controller
 {
+
+    private readonly UserManager<UserEntity> _userManager = userManager;
+    private readonly SignInManager<UserEntity> _signInManager = signInManager;
+
     #region Signup
 
     [HttpGet]
@@ -16,15 +23,38 @@ public class AuthController : Controller
 
     [HttpPost]
     [Route("/signup")]
-    //Den här måste ha en model i sig, i detta fall SignUpViewModel
-    public IActionResult SignUp(SignUpViewModel viewModel)
+    
+    public async Task <IActionResult> SignUp(SignUpViewModel viewModel)
     {
-        //gör något if valid (spara i databas, redirect user)
+        
         if (ModelState.IsValid) 
         {
-            
+            if (!await _userManager.Users.AnyAsync(x => x.Email == viewModel.Email))
+            {
+                var userEntity = new UserEntity
+                {
+                    FirstName = viewModel.FirstName,
+                    LastName = viewModel.LastName,
+                    Email = viewModel.Email,
+                    UserName = viewModel.Email
+                };
+
+                var result = await _userManager.CreateAsync(userEntity, viewModel.Password);
+                if (result.Succeeded)
+                {
+                    return RedirectToAction("SignIn", "Auth");
+                }
+                else
+                {
+                    ViewData["StatusMessage"] = "Something went wrong. Please try again.";
+                }
+            }
+            else
+            {
+                ViewData["StatusMessage"] = "User with the same email address already exists";
+            }
         }
-        //annars returnera detta
+        
         return View(viewModel);
     }
 
@@ -40,16 +70,35 @@ public class AuthController : Controller
 
     [HttpPost]
     [Route("/signin")]
-    //Den här måste ha en model i sig, i detta fall SignUpViewModel
-    public IActionResult SignIn(SignInViewModel viewModel)
+    
+    public async Task <IActionResult> SignIn(SignInViewModel viewModel)
     {
-        //gör något if valid (spara i databas, redirect user)
+        
         if (ModelState.IsValid)
         {
-
+            var user = await _userManager.FindByEmailAsync(viewModel.Email);
+            if (user != null)
+            {
+                var result = await _signInManager.PasswordSignInAsync(user, viewModel.Password, viewModel.RememberMe, false);
+                if (result.Succeeded)
+                {
+                    return RedirectToAction("Home", "");
+                }
+            }
         }
-        //annars returnera detta
+        ViewData["StatusMessage"] = "Incorrect email or password";
         return View(viewModel);
     }
+    #endregion
+
+    #region Sign Out
+
+    [HttpGet]
+    public new async Task<IActionResult> SignOut()
+    {
+        await _signInManager.SignOutAsync();
+        return RedirectToAction("SignIn", "Auth");
+    }
+
     #endregion
 }

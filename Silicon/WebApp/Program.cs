@@ -1,7 +1,22 @@
-var builder = WebApplication.CreateBuilder(args);
+using Infrastructure.Contexts;
+using Infrastructure.Entities;
+using Microsoft.EntityFrameworkCore;
 
+var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
+builder.Services.AddDbContext<DataContext>(x => x.UseSqlServer(builder.Configuration.GetConnectionString("SqlServer")));
+builder.Services.AddDefaultIdentity<UserEntity>(x =>
+{
+    x.User.RequireUniqueEmail = true;
+    x.SignIn.RequireConfirmedAccount = false;
+    x.Password.RequiredLength = 8;
+}).AddEntityFrameworkStores<DataContext>();
+
+builder.Services.ConfigureApplicationCookie(x =>
+{
+    x.LoginPath = "/signin";
+});
 
 
 

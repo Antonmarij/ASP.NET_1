@@ -8,6 +8,10 @@
     <div class="container">
 
         <form method="post" asp-controller="Auth" asp-action="SignUp">
+
+            <div class="alert">
+                @ViewData["StatusMessage"]
+            </div>
             <h1>Create Account</h1>
             <p>Already have an account? <a asp-controller="Auth" asp-action="SignIn">Sign in here</a></p>
 

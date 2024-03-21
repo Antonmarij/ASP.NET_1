@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using WebApp.Filter;
 
 namespace WebApp.Models;
 
@@ -38,5 +39,6 @@ public class SignUpViewModel
 
     [Display(Name = "I agree to the terms & conditions")]
     [Required(ErrorMessage = "You must accept the terms & conditions")]
+    [CheckboxRequired]
     public bool TermsAndConditions { get; set; }
 }

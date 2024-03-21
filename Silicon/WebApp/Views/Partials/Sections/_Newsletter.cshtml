@@ -1,43 +1,63 @@
-﻿<section class="newsletter-signup">
+﻿@model SubscribeViewModel
+
+<section class="subscribe">
     <div class="container">
-        <div class="section-title">
-            <h1>Don't Want to Miss Anything?</h1>
-            <img class="down-arrow" src="~/images/icons/arrows.svg" />
+        <div class="title">
+            <h2>Don't Want to Miss Anything?</h2>
+            <img src="images/icons/arrows.svg" />
         </div>
-        <div class="content">
-            <div class="sub">
-                <h5>Sign up for Newsletters</h5>
+        <form method="post" asp-action="Subscribe" asp-controller="Home">
+
+            <div class="alternative">
+                <h4>Sign up for Newsletters</h4>
+
+                <div class="options">
+                    <div class="checkbox-group">
+                        <div class="input-group">
+                            <input asp-for="DailyNewsletter" />
+                            <label asp-for="DailyNewsletter"></label>
+                        </div>
+                    </div>
+                    <div class="checkbox-group">
+                        <div class="input-group">
+                            <input asp-for="AdvertisingUpdates" />
+                            <label asp-for="AdvertisingUpdates"></label>
+                        </div>
+                    </div>
+                    <div class="checkbox-group">
+                        <div class="input-group">
+                            <input asp-for="WeekinReview" />
+                            <label asp-for="WeekinReview"></label>
+                        </div>
+                    </div>
+                    <div class="checkbox-group">
+                        <div class="input-group">
+                            <input asp-for="EventUpdates" />
+                            <label asp-for="EventUpdates"></label>
+                        </div>
+                    </div>
+                    <div class="checkbox-group">
+                        <div class="input-group">
+                            <input asp-for="StartupsWeekly" />
+                            <label asp-for="StartupsWeekly"></label>
+                        </div>
+                    </div>
+                    <div class="checkbox-group">
+                        <div class="input-group">
+                            <input asp-for="Podcasts" />
+                            <label asp-for="Podcasts"></label>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="checkboxes">
-                <input type="checkbox" value="option1"/>
-                <label>Daily Newsletter</label>
+
+            <div class="email">
+                <div class="input-group">
+                    <i class="fa-regular fa-envelope"></i>
+                    <input asp-for="Email" />
+                </div>
+                <button class="btn btn-theme" type="submit">Subscribe *</button>
             </div>
-            <div class="checkboxes">
-                <input type="checkbox" value="option1" />
-                <label>Event Updates</label>
-            </div>
-            <div class="checkboxes">
-                <input type="checkbox" value="option1" />
-                <label>Advertising Updates</label>
-            </div>
-            <div class="checkboxes">
-                <input type="checkbox" value="option1" />
-                <label>Startups Weekly</label>
-            </div>
-            <div class="checkboxes">
-                <input type="checkbox" value="option1" />
-                <label>Week in Review</label>
-            </div>
-            <div class="checkboxes">
-                <input type="checkbox" value="option1" />
-                <label>Podcasts</label>
-            </div>
-            
-        </div>
-        <div class="subscribe">
-            <input type="email" placeholder="Your Email" />
-            <button class="btn-theme">Subscribe*</button>
-        </div>
-        <p>*Yes I agree to the terms and privacy policy.</p>
+        </form>
     </div>
 </section>
