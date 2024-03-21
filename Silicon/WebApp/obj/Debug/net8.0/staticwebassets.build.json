@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "08rp9h2z4Ua6fr/p38UwAzj5ERByyr+WdkZKmYqpToU=",
+  "Hash": "jSFBjoaETdHiqAIz4OQxjpVzV4kSOw2cwPR2VBeAXYg=",
   "Source": "WebApp",
   "BasePath": "_content/WebApp",
   "Mode": "Default",
@@ -300,6 +300,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\scss\\sections\\_apps.scss"
+    },
+    {
+      "Identity": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_error.scss",
+      "SourceId": "WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\",
+      "BasePath": "_content/WebApp",
+      "RelativePath": "css/scss/sections/_error.scss",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\scss\\sections\\_error.scss"
     },
     {
       "Identity": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_footer.scss",
@@ -682,6 +701,25 @@
       "OriginalItemSpec": "wwwroot\\images\\brands\\brand-logo_4.svg"
     },
     {
+      "Identity": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\icons\\404.svg",
+      "SourceId": "WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\",
+      "BasePath": "_content/WebApp",
+      "RelativePath": "images/icons/404.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\icons\\404.svg"
+    },
+    {
       "Identity": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\icons\\arrows.svg",
       "SourceId": "WebApp",
       "SourceType": "Discovered",
@@ -1022,6 +1060,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\logos\\solid.svg"
+    },
+    {
+      "Identity": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\map\\streetmap.svg",
+      "SourceId": "WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\",
+      "BasePath": "_content/WebApp",
+      "RelativePath": "images/map/streetmap.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\map\\streetmap.svg"
     },
     {
       "Identity": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\mode\\mode_dark.svg",

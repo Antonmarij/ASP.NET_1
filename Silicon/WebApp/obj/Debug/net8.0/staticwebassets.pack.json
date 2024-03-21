@@ -61,6 +61,10 @@
       "PackagePath": "staticwebassets\\css\\scss\\sections\\_apps.scss"
     },
     {
+      "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_error.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\sections\\_error.scss"
+    },
+    {
       "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_footer.scss",
       "PackagePath": "staticwebassets\\css\\scss\\sections\\_footer.scss"
     },
@@ -141,6 +145,10 @@
       "PackagePath": "staticwebassets\\images\\brands\\brand-logo_4.svg"
     },
     {
+      "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\icons\\404.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\404.svg"
+    },
+    {
       "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\icons\\arrows.svg",
       "PackagePath": "staticwebassets\\images\\icons\\arrows.svg"
     },
@@ -211,6 +219,10 @@
     {
       "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\logos\\solid.svg",
       "PackagePath": "staticwebassets\\images\\logos\\solid.svg"
+    },
+    {
+      "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\map\\streetmap.svg",
+      "PackagePath": "staticwebassets\\images\\map\\streetmap.svg"
     },
     {
       "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\mode\\mode_dark.svg",

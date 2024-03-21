@@ -966,3 +966,29 @@ footer .container .copyright span {
 .subscribe .container form .email .input-group input {
   padding-left: 55px;
 }
+
+.error .container {
+  padding-top: 120px;
+}
+.error .container .error-msg {
+  display: flex;
+  justify-content: center;
+}
+.error .container .error-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  gap: 20px;
+}
+.error .container .error-text h2 {
+  color: var(--color-gray-900);
+}
+.error .container .error-text p {
+  color: var(--color-gray-700);
+}
+.error .container .home-btn {
+  display: flex;
+  justify-content: center;
+}

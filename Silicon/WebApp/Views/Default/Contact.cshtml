@@ -1,0 +1,44 @@
+﻿@model ContactViewModel
+
+@{
+    ViewData["Title"] = "Contact";
+}
+
+
+<section class="contact">
+    <div class="container">
+        <div class="content">
+
+        </div>
+
+        <form method="post" asp-controller="Default" asp-action="Contact">
+            <h1>Get In Contact With Us</h1>
+
+            <div class="form-content">
+                <div class="input-fullname input-group">
+                    <label class="input-label" asp-for="FullName"></label>
+                    <input asp-for="FullName" />
+                    <span asp-validation-for="FullName"></span>
+                </div>
+
+                <div class="input-email input-group">
+                    <label class="input-label" asp-for="Email"></label>
+                    <input asp-for="Email" />
+                    <span asp-validation-for="Email"></span>
+                </div>
+
+                <div class="input-service input-group">
+                    <label class="input-label" asp-for="Service"></label>
+                    <select asp-for="Service" asp-items="Html.GetEnumSelectList<ServiceOptions>()">
+                    </select>
+                    <span asp-validation-for="Service"></span>
+                </div>
+
+
+                <button class="btn-theme" type="submit">Send Contact Request</button>
+            </div>
+        </form>
+
+    </div>
+    <img class="map" src="~/images/map/streetmap.svg" />
+</section>

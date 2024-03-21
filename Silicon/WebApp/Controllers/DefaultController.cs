@@ -15,4 +15,16 @@ public class DefaultController : Controller
     }
 
 
+    [Route("/contact")]
+    public IActionResult Contact()
+    {
+        return View();
+    }
+
+    [Route("/404")]
+    public IActionResult Error()
+    {
+        return View();
+    }
+
 }
