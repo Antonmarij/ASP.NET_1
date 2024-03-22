@@ -8,23 +8,31 @@
 <section class="contact">
     <div class="container">
 
-            <div class="contact-box">
+            <div class="content">
                 <p class="breadcrumb"><i class="fa-regular fa-home"></i> Home <img class="home-arrows" src="~/images/icons/double-arrows.svg" /><a asp-action="Contact" asp-controller="Default">Contact</a></p>
                 <h1>Contact Us</h1>
-                
-                <div class="contact-text">
+                <div class="contact-box">
                     <img class="email-image" src="~/images/icons/mail-icon.svg" />
-                    <h4>Email Us</h4>
-                    <p>Please feel free to drop us a line. We will respond as soon as possible.</p>
-                    <p>Leave a message</p>
+                    <div class="contact-text">
+                        <h4>Email Us</h4>
+                        <p>Please feel free to drop us a line. We will respond as soon as possible.</p>
+                        <a asp-action="Error" asp-controller="Default">
+                            Leave a message 
+                            <i class="fa-regular fa-arrow-right"></i>
+                        </a>
+                    </div>
                 </div>
-                
-                <div class="contact-text">
+               <div class="contact-box">
                     <img class="careers-image" src="~/images/icons/careers-icon.svg" />
-                    <h4>Careers</h4>
-                    <p>Sit ac ipsum leo lorem magna nunc mattis maecenas non vestibulum.</p>
-                    <p>Send an application</p>
-                </div>
+                    <div class="contact-text">
+                        <h4>Careers</h4>
+                        <p>Sit ac ipsum leo lorem magna nunc mattis maecenas non vestibulum.</p>
+                        <a asp-action="Error" asp-controller="Default">
+                            Send an application 
+                            <i class="fa-regular fa-arrow-right"></i>
+                        </a>
+                    </div>
+               </div>
             </div>
             <div class="contact-form">
                 <form method="post" asp-controller="Default" asp-action="Contact">

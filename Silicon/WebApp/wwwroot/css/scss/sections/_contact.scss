@@ -19,12 +19,27 @@
             margin-right: 20%;
         }
 
-        .contact-box {
+        .content {
             grid-area: text;
-            
-          
 
+            .contact-box {
+                display: grid;
+                grid-template-columns: auto auto;
+                padding-top: 30px;
+                margin-right: 15%;
 
+                p {
+                    padding-top: 10px;
+                    color: var(--color-gray-700);
+                }
+                
+                a {
+                    padding-top: 30px;
+                }
+                
+             
+            }
+           
 
             a {
                 text-decoration: none;
