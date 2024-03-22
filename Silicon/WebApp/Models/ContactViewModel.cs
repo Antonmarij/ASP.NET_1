@@ -30,4 +30,10 @@ public class ContactViewModel
     [Display(Name = "Service (Optional)", Prompt = "Choose the service you are interested in")]
     [DataType(DataType.Text)]
     public ServiceOptions? Service { get; set; } = null!;
+
+    [Display(Name = "Message", Prompt = "Enter your message here...")]
+    [Required(ErrorMessage = "Your input is invalid")]
+    [MinLength(1, ErrorMessage = "Your input is invalid")]
+    [DataType(DataType.Text)]
+    public string Message { get; set; } = null!;
 }

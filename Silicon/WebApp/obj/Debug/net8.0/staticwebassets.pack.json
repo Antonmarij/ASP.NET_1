@@ -61,6 +61,10 @@
       "PackagePath": "staticwebassets\\css\\scss\\sections\\_apps.scss"
     },
     {
+      "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_contact.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\sections\\_contact.scss"
+    },
+    {
       "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_error.scss",
       "PackagePath": "staticwebassets\\css\\scss\\sections\\_error.scss"
     },
@@ -155,6 +159,10 @@
     {
       "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\icons\\check_circle.svg",
       "PackagePath": "staticwebassets\\images\\icons\\check_circle.svg"
+    },
+    {
+      "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\icons\\double-arrows.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\double-arrows.svg"
     },
     {
       "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\icons\\dropbox.svg",

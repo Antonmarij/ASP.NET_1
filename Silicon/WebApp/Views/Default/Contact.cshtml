@@ -7,37 +7,60 @@
 
 <section class="contact">
     <div class="container">
-        <div class="content">
 
-        </div>
-
-        <form method="post" asp-controller="Default" asp-action="Contact">
-            <h1>Get In Contact With Us</h1>
-
-            <div class="form-content">
-                <div class="input-fullname input-group">
-                    <label class="input-label" asp-for="FullName"></label>
-                    <input asp-for="FullName" />
-                    <span asp-validation-for="FullName"></span>
+            <div class="contact-text">
+                <p class="breadcrumb"><i class="fa-regular fa-home"></i> Home <img class="home-arrows" src="~/images/icons/double-arrows.svg" /><a asp-action="Contact" asp-controller="Default">Contact</a></p>
+                <h1>Contact Us</h1>
+                <div class="contact-box">
+                    <h2>Email Us</h2>
+                    <p>Please feel free to drop us a line. We will respond as soon as possible.</p>
+                    <p>Leave a message</p>
                 </div>
-
-                <div class="input-email input-group">
-                    <label class="input-label" asp-for="Email"></label>
-                    <input asp-for="Email" />
-                    <span asp-validation-for="Email"></span>
+                <div class="contact-box">
+                    <h2>Careers</h2>
+                    <p>Sit ac ipsum leo lorem magna nunc mattis maecenas non vestibulum.</p>
+                    <p>Send an application</p>
                 </div>
-
-                <div class="input-service input-group">
-                    <label class="input-label" asp-for="Service"></label>
-                    <select asp-for="Service" asp-items="Html.GetEnumSelectList<ServiceOptions>()">
-                    </select>
-                    <span asp-validation-for="Service"></span>
-                </div>
-
-
-                <button class="btn-theme" type="submit">Send Contact Request</button>
             </div>
-        </form>
+            <div class="contact-form">
+                <form method="post" asp-controller="Default" asp-action="Contact">
+                    <h2>Get In Contact With Us</h2>
+
+                    <div class="form-content">
+                        <div class="input-fullname input-group">
+                            <label class="input-label" asp-for="FullName"></label>
+                            <input asp-for="FullName" />
+                            <span asp-validation-for="FullName"></span>
+                        </div>
+
+                        <div class="input-email input-group">
+                            <label class="input-label" asp-for="Email"></label>
+                            <input asp-for="Email" />
+                            <span asp-validation-for="Email"></span>
+                        </div>
+
+                        <div class="input-service input-group">
+                            <label class="input-label" asp-for="Service"></label>
+                            <select asp-for="Service" asp-items="Html.GetEnumSelectList<ServiceOptions>()">
+                                <option class="option-placeholder" value="">Choose the service you are interested in</option>
+                            </select>
+                            <span asp-validation-for="Service"></span>
+                        </div>
+
+                        <div class="input-message input-group">
+                            <label class="input-label" asp-for="Message"></label>
+                            <input asp-for="Message" />
+                            <span asp-validation-for="Message"></span>
+                        </div>
+
+                        <button class="btn-theme" type="submit">Send Contact Request</button>
+                    </div>
+                </form>
+            </div>
+           
+        
+
+       
 
     </div>
     <img class="map" src="~/images/map/streetmap.svg" />

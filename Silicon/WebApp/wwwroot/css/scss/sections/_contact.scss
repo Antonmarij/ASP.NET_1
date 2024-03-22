@@ -1,0 +1,26 @@
+﻿.contact {
+    background-color: var(--color-gray-100);
+
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 'text form';
+        padding: 10px;
+
+        
+
+        .contact-form {
+            grid-area: form;
+            background-color: var(--color-white);
+            border-radius: 4px;
+            padding: 60px;
+            @include shadow-theme;
+            @include shadow-secondary;
+            margin-right: 20%;
+        }
+
+        .contact-text {
+            grid-area: text;
+        }
+    }
+}

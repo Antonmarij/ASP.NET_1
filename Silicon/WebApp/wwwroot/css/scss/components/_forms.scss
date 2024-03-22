@@ -12,13 +12,17 @@
     .input-group {
         position: relative;
         display: grid;
+    }
 
+    .input-message {
+        height: 120px;
     }
 
     .checkbox-group {
         label {
             font-weight: 400;
         }
+
         .input-group {
             display: flex;
             align-items: center;
@@ -26,7 +30,24 @@
         }
     }
 
-    input, 
+  
+
+    select,
+    textarea {
+        font-family: "manrope", sans-serif;
+        font-size: 1em;
+        font-weight: 400 !important;
+        color: var(--color-gray-800);
+        padding: 16px;
+        border-radius: 8px;
+        border: 1px solid var(--color-gray-400);
+
+        &::placeholder {
+            opacity: 0.5;
+        }
+    }
+
+    input,
     textarea {
         font-family: "manrope", sans-serif;
         font-size: 1em;
