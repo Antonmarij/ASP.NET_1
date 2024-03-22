@@ -157,6 +157,10 @@
       "PackagePath": "staticwebassets\\images\\icons\\arrows.svg"
     },
     {
+      "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\icons\\careers-icon.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\careers-icon.svg"
+    },
+    {
       "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\icons\\check_circle.svg",
       "PackagePath": "staticwebassets\\images\\icons\\check_circle.svg"
     },
@@ -203,6 +207,10 @@
     {
       "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\icons\\icon_6.svg",
       "PackagePath": "staticwebassets\\images\\icons\\icon_6.svg"
+    },
+    {
+      "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\icons\\mail-icon.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\mail-icon.svg"
     },
     {
       "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\icons\\mailchimp.svg",

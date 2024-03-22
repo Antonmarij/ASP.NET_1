@@ -19,8 +19,29 @@
             margin-right: 20%;
         }
 
-        .contact-text {
+        .contact-box {
             grid-area: text;
+            
+          
+
+
+
+            a {
+                text-decoration: none;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+
+            .breadcrumb {
+                color: var(--color-gray-600);
+                display: flex;
+                padding: 10px;
+                gap: 10px;
+            }
+
+            
         }
     }
 }
