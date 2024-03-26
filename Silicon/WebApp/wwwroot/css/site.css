@@ -595,6 +595,9 @@ header .container .btn-mobile {
   background-color: var(--color-gray-100);
   padding: 50px 0;
 }
+.tools img {
+  background-color: var(--color-gray-100);
+}
 .tools .container {
   text-align: center;
 }
@@ -1014,6 +1017,7 @@ footer .container .copyright span {
   box-shadow: 0 8px 18px -8px var(--color-theme-o);
   box-shadow: 0 8px 18px -8px var(--color-gray-400);
   position: absolute;
+  z-index: 800;
 }
 .contact .container .contact-form form {
   width: 400px;
@@ -1056,4 +1060,14 @@ footer .container .copyright span {
   display: flex;
   padding: 10px;
   gap: 10px;
+}
+
+#map {
+  height: 90%;
+  width: 100%;
+}
+
+.map-div {
+  height: 90%;
+  width: 100%;
 }

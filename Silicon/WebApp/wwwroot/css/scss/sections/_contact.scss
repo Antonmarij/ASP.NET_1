@@ -1,10 +1,7 @@
 ﻿.contact {
     background-color: var(--color-gray-100);
-    
-   img {
-       
-   }
-   
+
+
     .container {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -24,6 +21,7 @@
             @include shadow-secondary;
             //margin-right: 20%;
             position: absolute;
+            z-index: 800;
 
             form {
                 width: 400px;
@@ -34,7 +32,6 @@
                     input {
                         height: 150px;
                     }
-
                 }
             }
         }
@@ -79,8 +76,16 @@
                 padding: 10px;
                 gap: 10px;
             }
-
-            
         }
     }
+}
+
+#map {
+    height: 90%;
+    width: 100%;
+}
+
+.map-div {
+    height: 90%;
+    width: 100%;
 }

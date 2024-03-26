@@ -3,6 +3,12 @@
     background-color: var(--color-gray-100);
     padding: 50px 0;
 
+
+    img {
+        
+        background-color: var(--color-gray-100);
+    }
+
     .container {
         text-align: center;
 
@@ -20,7 +26,10 @@
                 grid-template-columns: 1fr 1fr 1fr;
             }
 
+
+
             .feature-box {
+
                 &:nth-child(1) {
                     border-bottom: 1px solid var(--color-gray-300);
                 }

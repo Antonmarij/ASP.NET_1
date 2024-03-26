@@ -17,20 +17,31 @@
     }) 
 })
 
+
+//function initMap() {
+//    const options = {
+//        center: { lat: 37.73418426513672, lng: -122.4065170288086 },
+//        zoom: 8
+//    };
+
+//    map = new google.maps.Map(document.getElementById("map"), options);
+//}
+
+//initMap();
+
+
 let map;
 
 async function initMap() {
     const { Map } = await google.maps.importLibrary("maps");
 
     map = new Map(document.getElementById("map"), {
-        center: { lat: -34.397, lng: 150.644 },
+        center: { lat: 59.34538650512695, lng: 18.02353286743164 },
         zoom: 8,
     });
 }
 
 initMap();
-
-
 
 
 let checkbox = document.querySelector('input[id=theme-switch-mode]');
