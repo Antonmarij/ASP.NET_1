@@ -13,8 +13,7 @@
 .mode-title {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    /*display: flex;
-    justify-content: center;*/
+    font-size: 1.5rem;
 
     .light-text {
         color: var(--color-white);

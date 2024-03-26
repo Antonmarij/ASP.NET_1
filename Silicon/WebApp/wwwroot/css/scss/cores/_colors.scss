@@ -33,3 +33,28 @@
     box-shadow: 0 8px 18px -8px var(--color-gray-400);
 }
 
+[data-theme='dark'] {
+    --color-white: #0B0F19;
+    --color-gray-100: #33354D;
+    --color-gray-200: #565973;
+    --color-gray-300: #565973;
+    --color-gray-400: #9397AD;
+    --color-gray-500: #B4B7C9;
+    --color-gray-600: #D4D7E5;
+    --color-gray-700: #E2E5F1;
+    --color-gray-800: #EFF2FC;
+    --color-gray-900: #F3F6FF;
+    --color-danger: #EF4444;
+    --color-black: #FFFFFF;
+    --color-theme: #6366F1;
+    --color-theme-o: #6365f1e6;
+    --color-danger: #EF4444;
+    --color-success: #22C55E;
+    --color-warning: #FFBA00;
+    --color-info: #4C82F7;
+    --color-danger-bg: #F5D7DA;
+    --color-fb: #1877F2;
+    --color-tw: #1DA1F2;
+    --color-ig: #{$ig-gradient};
+    --color-yt: #FF0000;
+}

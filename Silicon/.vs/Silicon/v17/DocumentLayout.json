@@ -1,19 +1,77 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Skola\\ASP.NET_1\\Silicon\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{49B6CC94-16DD-4420-A6D4-2FEDD0E8E337}|WebApp\\WebApp.csproj|c:\\skola\\asp.net_1\\silicon\\webapp\\wwwroot\\css\\scss\\components\\_titles.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
+      "RelativeMoniker": "D:0:0:{49B6CC94-16DD-4420-A6D4-2FEDD0E8E337}|WebApp\\WebApp.csproj|solutionrelative:webapp\\wwwroot\\css\\scss\\components\\_titles.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49B6CC94-16DD-4420-A6D4-2FEDD0E8E337}|WebApp\\WebApp.csproj|c:\\skola\\asp.net_1\\silicon\\webapp\\wwwroot\\css\\scss\\sections\\_modes.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
+      "RelativeMoniker": "D:0:0:{49B6CC94-16DD-4420-A6D4-2FEDD0E8E337}|WebApp\\WebApp.csproj|solutionrelative:webapp\\wwwroot\\css\\scss\\sections\\_modes.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49B6CC94-16DD-4420-A6D4-2FEDD0E8E337}|WebApp\\WebApp.csproj|c:\\skola\\asp.net_1\\silicon\\webapp\\views\\partials\\sections\\_modes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{49B6CC94-16DD-4420-A6D4-2FEDD0E8E337}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\partials\\sections\\_modes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 194,
-          "SelectedChildIndex": -1,
+          "DockedHeight": 292,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_titles.scss",
+              "DocumentMoniker": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\css\\scss\\components\\_titles.scss",
+              "RelativeDocumentMoniker": "WebApp\\wwwroot\\css\\scss\\components\\_titles.scss",
+              "ToolTip": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\css\\scss\\components\\_titles.scss",
+              "RelativeToolTip": "WebApp\\wwwroot\\css\\scss\\components\\_titles.scss",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
+              "WhenOpened": "2024-03-26T12:07:19.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_modes.scss",
+              "DocumentMoniker": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_modes.scss",
+              "RelativeDocumentMoniker": "WebApp\\wwwroot\\css\\scss\\sections\\_modes.scss",
+              "ToolTip": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_modes.scss",
+              "RelativeToolTip": "WebApp\\wwwroot\\css\\scss\\sections\\_modes.scss",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
+              "WhenOpened": "2024-03-26T12:05:57.548Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 168,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Modes.cshtml",
+              "DocumentMoniker": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\Views\\Partials\\Sections\\_Modes.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Partials\\Sections\\_Modes.cshtml",
+              "ToolTip": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\Views\\Partials\\Sections\\_Modes.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Partials\\Sections\\_Modes.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-26T12:06:02.139Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -34,6 +34,6 @@ public class ContactViewModel
     [Display(Name = "Message", Prompt = "Enter your message here...")]
     [Required(ErrorMessage = "Your input is invalid")]
     [MinLength(1, ErrorMessage = "Your input is invalid")]
-    [DataType(DataType.Text)]
+    [DataType(DataType.MultilineText)]
     public string Message { get; set; } = null!;
 }

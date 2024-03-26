@@ -1,13 +1,19 @@
 ﻿.contact {
     background-color: var(--color-gray-100);
-
+    
+   img {
+       
+   }
+   
     .container {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-areas: 'text form';
-        padding: 10px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        position: relative;
 
-        
+
 
         .contact-form {
             grid-area: form;
@@ -16,7 +22,21 @@
             padding: 60px;
             @include shadow-theme;
             @include shadow-secondary;
-            margin-right: 20%;
+            //margin-right: 20%;
+            position: absolute;
+
+            form {
+                width: 400px;
+
+                .input-message {
+                    padding-bottom: 30px;
+
+                    input {
+                        height: 150px;
+                    }
+
+                }
+            }
         }
 
         .content {
@@ -29,17 +49,21 @@
                 margin-right: 15%;
 
                 p {
+                    padding-left: 10px;
                     padding-top: 10px;
                     color: var(--color-gray-700);
                 }
-                
+
+                h4 {
+                    padding-left: 10px;
+                }
+
                 a {
+                    padding-left: 10px;
                     padding-top: 30px;
                 }
-                
-             
             }
-           
+
 
             a {
                 text-decoration: none;

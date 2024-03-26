@@ -1,4 +1,5 @@
 ﻿@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
 :root {
   --color-white: #FFFFFF;
   --color-gray-100: #F3F6FF;
@@ -12,6 +13,32 @@
   --color-gray-900: #0B0F19;
   --color-danger: #EF4444;
   --color-black: #000000;
+  --color-theme: #6366F1;
+  --color-theme-o: #6365f1e6;
+  --color-danger: #EF4444;
+  --color-success: #22C55E;
+  --color-warning: #FFBA00;
+  --color-info: #4C82F7;
+  --color-danger-bg: #F5D7DA;
+  --color-fb: #1877F2;
+  --color-tw: #1DA1F2;
+  --color-ig: linear-gradient(to bottom left, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80);
+  --color-yt: #FF0000;
+}
+
+[data-theme=dark] {
+  --color-white: #0B0F19;
+  --color-gray-100: #33354D;
+  --color-gray-200: #565973;
+  --color-gray-300: #565973;
+  --color-gray-400: #9397AD;
+  --color-gray-500: #B4B7C9;
+  --color-gray-600: #D4D7E5;
+  --color-gray-700: #E2E5F1;
+  --color-gray-800: #EFF2FC;
+  --color-gray-900: #F3F6FF;
+  --color-danger: #EF4444;
+  --color-black: #FFFFFF;
   --color-theme: #6366F1;
   --color-theme-o: #6365f1e6;
   --color-danger: #EF4444;
@@ -79,46 +106,8 @@ a:hover {
   text-decoration: none;
 }
 
-h1 {
-  font-family: "Manrope", sans-serif;
-  line-height: 1.5;
-  font-weight: 800;
-  font-size: 2.5em !important;
-}
-
-h2 {
-  font-family: "Manrope", sans-serif;
-  line-height: 1.5;
-  font-weight: 800;
-  font-size: 2em !important;
-}
-
-h3 {
-  font-family: "Manrope", sans-serif;
-  line-height: 1.5;
-  font-weight: 800;
-  font-size: 1.75em !important;
-}
-
-h4 {
-  font-family: "Manrope", sans-serif;
-  line-height: 1.5;
-  font-weight: 800;
-  font-size: 1.5em !important;
-}
-
-h5 {
-  font-family: "Manrope", sans-serif;
-  line-height: 1.5;
-  font-weight: 800;
-  font-size: 1.25em !important;
-}
-
-h6 {
-  font-family: "Manrope", sans-serif;
-  line-height: 1.5;
-  font-weight: 800;
-  font-size: 1em !important;
+:root {
+  --font-manrope: "Manrope", sans-serif;
 }
 
 .container {
@@ -181,8 +170,8 @@ h6 {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 .integrate-box:hover {
-  /*border: 1px solid var(--color-gray-200);
-  border-radius: 8px;*/
+  box-shadow: 0 8px 18px -8px var(--color-theme-o);
+  box-shadow: 0 8px 18px -8px var(--color-gray-400);
 }
 .integrate-box h5 {
   font-size: 20px;
@@ -203,8 +192,7 @@ h6 {
 .mode-title {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  /*display: flex;
-  justify-content: center;*/
+  font-size: 1.5rem;
 }
 .mode-title .light-text {
   color: var(--color-white);
@@ -402,9 +390,6 @@ form .input-group {
   position: relative;
   display: grid;
 }
-form .input-message {
-  height: 320px;
-}
 form .checkbox-group label {
   font-weight: 400;
 }
@@ -548,14 +533,12 @@ header .container .btn-mobile {
 }
 .showcase .container .content h1 {
   text-align: center;
-  font-family: "Manrope", sans-serif;
   line-height: 1.5;
   font-weight: 800;
   font-size: 2em !important;
 }
 @media (min-width: 1200px) {
   .showcase .container .content h1 {
-    font-family: "Manrope", sans-serif;
     line-height: 1.5;
     font-weight: 800;
     font-size: 3.5em !important;
@@ -831,7 +814,6 @@ footer .container .copyright span {
   padding-top: 30px;
   padding-bottom: 30px;
   background: linear-gradient(to right, #0B0F19 50%, #FFFFFF 50%);
-  font-size: 1rem;
 }
 @media (min-width: 1200px) {
   .mode {
@@ -901,6 +883,8 @@ footer .container .copyright span {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas: "phone text stores";
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 .download .container .text-box {
   padding-top: 50px;
@@ -964,6 +948,7 @@ footer .container .copyright span {
 .subscribe .container form .alternative .options {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
 }
 .subscribe .container form .email {
   display: grid;
@@ -1017,7 +1002,9 @@ footer .container .copyright span {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-areas: "text form";
-  padding: 10px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  position: relative;
 }
 .contact .container .contact-form {
   grid-area: form;
@@ -1026,7 +1013,16 @@ footer .container .copyright span {
   padding: 60px;
   box-shadow: 0 8px 18px -8px var(--color-theme-o);
   box-shadow: 0 8px 18px -8px var(--color-gray-400);
-  margin-right: 20%;
+  position: absolute;
+}
+.contact .container .contact-form form {
+  width: 400px;
+}
+.contact .container .contact-form form .input-message {
+  padding-bottom: 30px;
+}
+.contact .container .contact-form form .input-message input {
+  height: 150px;
 }
 .contact .container .content {
   grid-area: text;
@@ -1038,10 +1034,15 @@ footer .container .copyright span {
   margin-right: 15%;
 }
 .contact .container .content .contact-box p {
+  padding-left: 10px;
   padding-top: 10px;
   color: var(--color-gray-700);
 }
+.contact .container .content .contact-box h4 {
+  padding-left: 10px;
+}
 .contact .container .content .contact-box a {
+  padding-left: 10px;
   padding-top: 30px;
 }
 .contact .container .content a {
