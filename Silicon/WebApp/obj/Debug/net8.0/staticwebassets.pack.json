@@ -93,6 +93,10 @@
       "PackagePath": "staticwebassets\\css\\scss\\sections\\_newsletter.scss"
     },
     {
+      "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_security.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\sections\\_security.scss"
+    },
+    {
       "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_showcase.scss",
       "PackagePath": "staticwebassets\\css\\scss\\sections\\_showcase.scss"
     },

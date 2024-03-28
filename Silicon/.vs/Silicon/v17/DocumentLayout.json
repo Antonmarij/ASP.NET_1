@@ -1,7 +1,20 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Skola\\ASP.NET_1\\Silicon\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{49B6CC94-16DD-4420-A6D4-2FEDD0E8E337}|WebApp\\WebApp.csproj|c:\\skola\\asp.net_1\\silicon\\webapp\\views\\account\\security.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{49B6CC94-16DD-4420-A6D4-2FEDD0E8E337}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\account\\security.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49B6CC94-16DD-4420-A6D4-2FEDD0E8E337}|WebApp\\WebApp.csproj|c:\\skola\\asp.net_1\\silicon\\webapp\\models\\securityviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49B6CC94-16DD-4420-A6D4-2FEDD0E8E337}|WebApp\\WebApp.csproj|solutionrelative:webapp\\models\\securityviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49B6CC94-16DD-4420-A6D4-2FEDD0E8E337}|WebApp\\WebApp.csproj|c:\\skola\\asp.net_1\\silicon\\webapp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49B6CC94-16DD-4420-A6D4-2FEDD0E8E337}|WebApp\\WebApp.csproj|solutionrelative:webapp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
@@ -9,11 +22,50 @@
       "DocumentGroups": [
         {
           "DockedHeight": 288,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SecurityViewModel.cs",
+              "DocumentMoniker": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\Models\\SecurityViewModel.cs",
+              "RelativeDocumentMoniker": "WebApp\\Models\\SecurityViewModel.cs",
+              "ToolTip": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\Models\\SecurityViewModel.cs",
+              "RelativeToolTip": "WebApp\\Models\\SecurityViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T09:40:03.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Security.cshtml",
+              "DocumentMoniker": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\Views\\Account\\Security.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Account\\Security.cshtml",
+              "ToolTip": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\Views\\Account\\Security.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Account\\Security.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-28T09:29:51.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "WebApp\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "WebApp\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T09:28:04.315Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -1,12 +1,16 @@
 ﻿@model SubscribeViewModel
 
-<section class="subscribe">
+
+
+
+
+<section id="subscribe" class="subscribe">
     <div class="container">
         <div class="title">
             <h2>Don't Want to Miss Anything?</h2>
             <img src="images/icons/arrows.svg" />
         </div>
-        <form method="post" asp-action="Subscribe" asp-controller="Home">
+        <form method="post" asp-action="Register" asp-controller="Subscribe">
 
             <div class="alternative">
                 <h4>Sign up for Newsletters</h4>
@@ -59,5 +63,8 @@
                 <button class="btn btn-theme" type="submit">Subscribe *</button>
             </div>
         </form>
+    </div>
+    <div class="status">
+        @TempData["Status"]
     </div>
 </section>

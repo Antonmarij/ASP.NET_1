@@ -144,3 +144,14 @@ C:\Skola\ASP.NET_1\Silicon\WebApp\bin\Debug\net8.0\Infrastructure.pdb
 C:\Skola\ASP.NET_1\Silicon\WebApp\obj\Debug\net8.0\WebApp.csproj.AssemblyReference.cache
 C:\Skola\ASP.NET_1\Silicon\WebApp\obj\Debug\net8.0\WebApp.MvcApplicationPartsAssemblyInfo.cs
 C:\Skola\ASP.NET_1\Silicon\WebApp\obj\Debug\net8.0\WebApp.csproj.Up2Date
+C:\Skola\ASP.NET_1\Silicon\WebApp\bin\Debug\net8.0\WebApi.deps.json
+C:\Skola\ASP.NET_1\Silicon\WebApp\bin\Debug\net8.0\WebApi.runtimeconfig.json
+C:\Skola\ASP.NET_1\Silicon\WebApp\bin\Debug\net8.0\WebApi.staticwebassets.runtime.json
+C:\Skola\ASP.NET_1\Silicon\WebApp\bin\Debug\net8.0\WebApi.exe
+C:\Skola\ASP.NET_1\Silicon\WebApp\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Skola\ASP.NET_1\Silicon\WebApp\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Skola\ASP.NET_1\Silicon\WebApp\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Skola\ASP.NET_1\Silicon\WebApp\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Skola\ASP.NET_1\Silicon\WebApp\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Skola\ASP.NET_1\Silicon\WebApp\bin\Debug\net8.0\WebApi.dll
+C:\Skola\ASP.NET_1\Silicon\WebApp\bin\Debug\net8.0\WebApi.pdb

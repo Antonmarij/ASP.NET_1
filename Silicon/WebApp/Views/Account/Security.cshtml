@@ -1,0 +1,57 @@
+﻿@using WebApp.Models1
+@model SecurityViewModel
+
+
+
+<section class="security">
+    <div class="container">
+        <div class="profile">
+
+        </div>
+        <div class="security-form">
+            <form method="post" asp-controller="Account" asp-action="ChangePass">
+
+                <div class="alert">
+                    @ViewData["StatusMessage"]
+                </div>
+                <h1>Security</h1>
+
+
+                <div class="form-content">
+                    <div class="input-password input-group">
+                        <label class="input-label" asp-for="CurrentPassword"></label>
+                        <input asp-for="CurrentPassword" />
+                        <span asp-validation-for="CurrentPassword"></span>
+                    </div>
+
+                    <div class="input-password input-group">
+                        <label class="input-label" asp-for="Password"></label>
+                        <input asp-for="Password" />
+                        <span asp-validation-for="Password"></span>
+                    </div>
+
+                    <div class="input-confirm input-group">
+                        <label class="input-label" asp-for="ConfirmPassword"></label>
+                        <input asp-for="ConfirmPassword" />
+                        <span asp-validation-for="ConfirmPassword"></span>
+                    </div>
+
+
+                    <div class="checkbox-group">
+                        <div class="input-group">
+                            <input asp-for="DeleteAccount" />
+                            <label asp-for="DeleteAccount">
+                                Yes, I want to delete my account.
+                            </label>
+                        </div>
+                        <span asp-validation-for="DeleteAccount"></span>
+                    </div>
+
+                    <button class="btn-theme" type="submit">Change Password</button>
+
+
+                </div>
+            </form>
+        </div>
+    </div>
+</section>

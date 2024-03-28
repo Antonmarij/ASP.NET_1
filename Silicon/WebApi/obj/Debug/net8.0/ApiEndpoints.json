@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "WebApi.Controllers.SubcribeController",
+    "Method": "Create",
+    "RelativePath": "api/Subcribe",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "form",
+        "Type": "WebApi.Models.SubscribeForm",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

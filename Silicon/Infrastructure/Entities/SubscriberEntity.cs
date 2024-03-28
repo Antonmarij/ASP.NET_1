@@ -1,8 +1,10 @@
-﻿namespace Infrastructure.Entities;
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Infrastructure.Entities;
 
 public class SubscriberEntity
 {
-    public string Id { get; set; } = Guid.NewGuid().ToString();
+    [Key]
     public string Email { get; set; } = null!;
     public DateTime Created { get; set; } = DateTime.Now;
     public bool DailyNewsletter { get; set; }

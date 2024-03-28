@@ -1,7 +1,7 @@
 ﻿@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
 :root {
-  --color-white: #FFFFFF;
+  --color-gray-000: #FFFFFF;
   --color-gray-100: #F3F6FF;
   --color-gray-200: #EFF2FC;
   --color-gray-300: #E2E5F1;
@@ -11,15 +11,17 @@
   --color-gray-700: #565973;
   --color-gray-800: #33354D;
   --color-gray-900: #0B0F19;
-  --color-danger: #EF4444;
+  --color-white: #FFFFFF;
   --color-black: #000000;
+  --color-gray: #EFF2FC;
   --color-theme: #6366F1;
-  --color-theme-o: #6365f1e6;
-  --color-danger: #EF4444;
-  --color-success: #22C55E;
-  --color-warning: #FFBA00;
-  --color-info: #4C82F7;
-  --color-danger-bg: #F5D7DA;
+  --color-danger: #F5D7DA;
+  --color-danger-dark: #e57e88;
+  --color-success: #bcf7d2;
+  --color-success-dark: #22C55E;
+  --color-warning: #ffe8ad;
+  --color-info: #cfdefd;
+  --font-standard: "Manrope", sans-serif;
   --color-fb: #1877F2;
   --color-tw: #1DA1F2;
   --color-ig: linear-gradient(to bottom left, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80);
@@ -947,6 +949,9 @@ footer .container .copyright span {
   margin: 2rem 0;
   display: grid;
   grid-template-columns: 1fr 3fr;
+}
+.subscribe .container form .alternative h4 {
+  font-size: 1.5em;
 }
 .subscribe .container form .alternative .options {
   display: grid;

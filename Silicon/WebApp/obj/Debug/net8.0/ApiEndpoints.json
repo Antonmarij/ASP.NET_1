@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "ContainingType": "WebApi.Controllers.SubcribeController",
+    "Method": "Create",
+    "RelativePath": "api/Subcribe",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "form",
+        "Type": "WebApi.Models.SubscribeForm",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApp.Controllers.CoursesController",
+    "Method": "Create",
+    "RelativePath": "courses",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "form",
+        "Type": "Infrastructure.Models.CourseRegistrationForm",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
