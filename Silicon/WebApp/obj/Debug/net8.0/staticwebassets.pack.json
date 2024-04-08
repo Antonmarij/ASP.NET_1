@@ -57,6 +57,14 @@
       "PackagePath": "staticwebassets\\css\\scss\\cores\\_typography.scss"
     },
     {
+      "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_account-profile.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\sections\\_account-profile.scss"
+    },
+    {
+      "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_account.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\sections\\_account.scss"
+    },
+    {
       "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_apps.scss",
       "PackagePath": "staticwebassets\\css\\scss\\sections\\_apps.scss"
     },
@@ -271,6 +279,14 @@
     {
       "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\uploads\\avatar.jpg",
+      "PackagePath": "staticwebassets\\uploads\\avatar.jpg"
+    },
+    {
+      "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\uploads\\p_ab2f17e4-d18c-4e42-9d05-db40d50203ea_db56acfb-958a-43ca-ae63-2bca07006c54.png",
+      "PackagePath": "staticwebassets\\uploads\\p_ab2f17e4-d18c-4e42-9d05-db40d50203ea_db56acfb-958a-43ca-ae63-2bca07006c54.png"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebApp.Microsoft.AspNetCore.StaticWebAssets.props",

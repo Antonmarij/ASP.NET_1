@@ -18,8 +18,16 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Skola\ASP.NET_1\Silicon\WebApp
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Skola/ASP.NET_1/Silicon/WebApp/Views/Account/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Skola/ASP.NET_1/Silicon/WebApp/Views/Account/Security.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTZWN1cml0eS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Skola/ASP.NET_1/Silicon/WebApp/Views/Account/_AccountProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxfQWNjb3VudFByb2ZpbGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Skola/ASP.NET_1/Silicon/WebApp/Views/Auth/SignIn.cshtml]
@@ -76,6 +84,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Skola/ASP.NET_1/Silicon/WebApp/Views/Partials/Sections/_Tools.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcU2VjdGlvbnNcX1Rvb2xzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Skola/ASP.NET_1/Silicon/WebApp/Views/Shared/_AccountLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BY2NvdW50TGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Skola/ASP.NET_1/Silicon/WebApp/Views/Shared/_Layout.cshtml]

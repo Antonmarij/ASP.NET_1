@@ -8,12 +8,13 @@ public class DataContext(DbContextOptions<DataContext> options) : IdentityDbCont
 {
     public DbSet<SubscriberEntity> Subscribers { get; set; }
 
+    public DbSet<AddressEntity> Addresses { get; set; }
+
     //protected override void OnModelCreating(ModelBuilder modelBuilder)
     //{
     //    modelBuilder.HasDefaultSchema("identity");
     //}
 }
-
 public class CoursesDbContext(DbContextOptions<CoursesDbContext> options) : DbContext(options)
 {
     public DbSet<CourseEntity> Courses { get; set; }

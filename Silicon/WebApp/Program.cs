@@ -11,7 +11,7 @@ builder.Services.AddHttpClient();
 
 builder.Services.RegisterDbContexts(builder.Configuration);
 builder.Services.RegisterAuthentication(builder.Configuration);
-
+builder.Services.RegisterServices(builder.Configuration);
 
 
 var app = builder.Build();

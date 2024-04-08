@@ -1,6 +1,7 @@
 ﻿document.addEventListener("DOMContentLoaded", () => {
     let btnMenu = document.querySelector('.btn-menu')
     let nav = document.querySelector('nav')
+    handleProfileImageUpload()
 
     btnMenu.addEventListener('click', () => {
         btnMenu.classList.toggle('active')
@@ -17,6 +18,22 @@
     }) 
 })
 
+
+function handleProfileImageUpload() {
+    try {
+
+        let fileUploader = document.querySelector('#fileUploader')
+        if (fileUploader != undefined) {
+            fileUploader.addEventListener('change', function () {
+                if (this.files.length > 0) {
+                    this.form.submit()
+                }
+            })
+        }
+
+    }
+    catch { }
+}
 
 //function initMap() {
 //    const options = {

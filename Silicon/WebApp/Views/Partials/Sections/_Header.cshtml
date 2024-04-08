@@ -1,8 +1,9 @@
-﻿@inject SignInManager<UserEntity> SignInManager
+﻿@{
+    var user = await UserManager.GetUserAsync(User);
+}
 
 
-@if (SignInManager.IsSignedIn(User))
-{
+
     <header>
         <div class="container">
             <a class="logo" asp-action="Home" asp-controller="Default"><img src="~/images/logos/solid.svg" alt="Silicon" /></a>
@@ -23,45 +24,27 @@
             </div>
 
             <div class="account-buttons">
-                @User.Identity?.Name
-                <a class="btn btn-theme" asp-action="SignOut" asp-controller="Auth">Sign out</a>
-            </div>
-
-
-            <button class="btn-mobile"><i class="fa-regular fa-bars"></i></button>
-        </div>
-    </header>
-}
-else
-{
-    <header>
-        <div class="container">
-            <a class="logo" asp-action="Home" asp-controller="Default"><img src="~/images/logos/solid.svg" alt="Silicon" /></a>
-
-            @* fusk-fix för att hålla darkmode switchen till höger *@
-            <nav>
+            @if (SignInManager.IsSignedIn(User) && user != null)
+            {
+                <div class="profile">
+                    <a class="btn btn-theme" asp-action="SignOut" asp-controller="Auth">Sign out</a>
+                    <div class="image">
+                        <a asp-action="Details" asp-controller="Account">
+                            <img src="@Configuration["FilePath:ProfileImagePath"]/@user.ProfileImage" alt="" />
+                        </a>
+                    </div>
+                </div>
+            }
+                else
+                {
+                    <a class="btn-theme-secondary btn-small" asp-action="SignIn" asp-controller="Auth"><i class="fa-regular fa-arrow-right-to-bracket"></i>Sign in</a>
+                    <a class="btn-theme btn-small" asp-action="SignUp" asp-controller="Auth"><i class="fa-regular fa-user"></i>Sign up</a>
+                }
                 
-            </nav>
-
-            <div class="theme-switch">
-                <label for="theme-switch-mode">Light</label>
-                <label class="switch">
-                    <input id="theme-switch-mode" type="checkbox" />
-                    <span class="slider round"></span>
-                </label>
-                <label for="theme-switch-mode">Dark</label>
             </div>
-
-            <div class="account-buttons">
-                <a class="btn-theme-secondary btn-small" asp-action="SignIn" asp-controller="Auth"><i class="fa-regular fa-arrow-right-to-bracket"></i>Sign in</a>
-                <a class="btn-theme btn-small" asp-action="SignUp" asp-controller="Auth"><i class="fa-regular fa-user"></i>Sign up</a>
-            </div>
-
+        
 
             <button class="btn-mobile"><i class="fa-regular fa-bars"></i></button>
         </div>
     </header>
-}
-
-
 

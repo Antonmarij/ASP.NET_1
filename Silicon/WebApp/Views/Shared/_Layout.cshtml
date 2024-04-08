@@ -7,14 +7,6 @@
         @(!string.IsNullOrEmpty(ViewData["Title"]?.ToString()) ? ViewData["Title"] + " | Silicon" : "Silicon") 
     </title>
 
-    @if (!string.IsNullOrEmpty(ViewData["DarkMode"]?.ToString()))
-    {
-        <link rel="stylesheet" href="~/css/dark-mode.css" asp-append-version="true" />
-    }
-    else
-    {
-        <link rel="stylesheet" href="~/css/light-mode.css" asp-append-version="true" />
-    }
 
 
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
