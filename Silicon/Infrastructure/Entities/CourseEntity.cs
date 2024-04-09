@@ -6,25 +6,21 @@ public class CourseEntity
 {
     [Key]
     public string Id { get; set; } = null!;
-    
     public string Title { get; set; } = null!;
-    
-    public bool IsBestseller { get; set; }
-
-    public bool IsDigital { get; set; }
-
     public string Author { get; set; } = null!;
-
-    public decimal OriginalPrice { get; set; }
-
-    public decimal DiscountPrice { get; set; }
-
+    public string OriginalPrice { get; set; } = null!;
+    public string? DiscountPrice { get; set; }
     public int Hours { get; set; }
+    public string? LikesInProcent { get; set; }
+    public string? NumberOfLikes { get; set; }
+    public bool IsDigital { get; set; }
+    public bool IsBestseller { get; set; }
+    public DateTime Created { get; set; }
+    public DateTime LastUpdated { get; set; }
+    public string? ImageUrl { get; set; }
+    public string? BigImageUrl { get; set; }
 
-    public decimal LikesInProcent { get; set; }
-
-    public decimal LikesInNumbers { get; set; }
-
-    public string? CourseImageUrl { get; set; }
+    public int? CategoryId { get; set; }
+    public CategoryEntity? Category { get; set; }
 
 }

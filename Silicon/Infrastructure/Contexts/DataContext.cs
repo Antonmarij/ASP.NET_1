@@ -17,7 +17,7 @@ public class DataContext(DbContextOptions<DataContext> options) : IdentityDbCont
 }
 public class CoursesDbContext(DbContextOptions<CoursesDbContext> options) : DbContext(options)
 {
-    public DbSet<CourseEntity> Courses { get; set; }
+    //public DbSet<CourseEntity> Courses { get; set; }
 
     //protected override void OnModelCreating(ModelBuilder modelBuilder)
     //{

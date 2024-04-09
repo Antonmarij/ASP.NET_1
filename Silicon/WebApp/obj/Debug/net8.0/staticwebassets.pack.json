@@ -161,6 +161,42 @@
       "PackagePath": "staticwebassets\\images\\brands\\brand-logo_4.svg"
     },
     {
+      "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\courses\\course_1.svg.svg",
+      "PackagePath": "staticwebassets\\images\\courses\\course_1.svg.svg"
+    },
+    {
+      "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\courses\\course_2.svg.svg",
+      "PackagePath": "staticwebassets\\images\\courses\\course_2.svg.svg"
+    },
+    {
+      "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\courses\\course_3.svg.svg",
+      "PackagePath": "staticwebassets\\images\\courses\\course_3.svg.svg"
+    },
+    {
+      "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\courses\\course_4.svg.svg",
+      "PackagePath": "staticwebassets\\images\\courses\\course_4.svg.svg"
+    },
+    {
+      "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\courses\\course_5.svg.svg",
+      "PackagePath": "staticwebassets\\images\\courses\\course_5.svg.svg"
+    },
+    {
+      "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\courses\\course_6.svg.svg",
+      "PackagePath": "staticwebassets\\images\\courses\\course_6.svg.svg"
+    },
+    {
+      "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\courses\\course_7.svg.svg",
+      "PackagePath": "staticwebassets\\images\\courses\\course_7.svg.svg"
+    },
+    {
+      "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\courses\\course_8.svg.svg",
+      "PackagePath": "staticwebassets\\images\\courses\\course_8.svg.svg"
+    },
+    {
+      "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\courses\\course_9.svg.svg",
+      "PackagePath": "staticwebassets\\images\\courses\\course_9.svg.svg"
+    },
+    {
       "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\icons\\404.svg",
       "PackagePath": "staticwebassets\\images\\icons\\404.svg"
     },
@@ -283,6 +319,10 @@
     {
       "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\uploads\\avatar.jpg",
       "PackagePath": "staticwebassets\\uploads\\avatar.jpg"
+    },
+    {
+      "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\uploads\\p_ab2f17e4-d18c-4e42-9d05-db40d50203ea_44aec899-ca6e-4fb1-88e2-3d9d34656338.png",
+      "PackagePath": "staticwebassets\\uploads\\p_ab2f17e4-d18c-4e42-9d05-db40d50203ea_44aec899-ca6e-4fb1-88e2-3d9d34656338.png"
     },
     {
       "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\uploads\\p_ab2f17e4-d18c-4e42-9d05-db40d50203ea_db56acfb-958a-43ca-ae63-2bca07006c54.png",

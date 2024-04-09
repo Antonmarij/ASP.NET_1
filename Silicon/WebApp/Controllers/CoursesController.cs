@@ -2,30 +2,51 @@
 using Infrastructure.Factories;
 using Infrastructure.Models;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
+using WebApp.Models;
 
 namespace WebApp.Controllers
 {
     [Route("/courses")]
-    [ApiController]
-    public class CoursesController(CoursesDbContext context) : ControllerBase
+    //[ApiController]
+    public class CoursesController(HttpClient http) : Controller
     {
-        private readonly CoursesDbContext _context = context;
+        private readonly HttpClient _http = http;
+        private string _categoryApiUrl = "https://localhost:7093/api/categories";
+        private string _courseApiUrl = "https://localhost:7093/api/courses";
 
-        [HttpPost]
-        public async Task<IActionResult> Create(CourseRegistrationForm form)
+        public async Task<IActionResult> Index(string category = "", string searchQuery = "", int pageNumber = 1, int pageSize = 6)
         {
+            var viewModel = new CoursesViewModel();
 
-            if (ModelState.IsValid)
+            var categoryResponse = await _http.GetAsync(_categoryApiUrl);
+            if (categoryResponse.IsSuccessStatusCode)
             {
-                var course = CourseFactory.Create(form);
-
-
-                _context.Courses.Add(course);
-                await _context.SaveChangesAsync();
-
-                return Created("", course);
+                var categories = JsonConvert.DeserializeObject<IEnumerable<Category>>(await categoryResponse.Content.ReadAsStringAsync());
+                if (categories != null)
+                    viewModel.Categories = categories;
             }
-            return BadRequest();
+
+            var courseResponse = await _http.GetAsync($"{_courseApiUrl}?category={Uri.EscapeDataString(category)}&searchQuery={Uri.EscapeDataString(searchQuery)}&pageNumber={pageNumber}&pageSize={pageSize}");
+            if (courseResponse.IsSuccessStatusCode)
+            {
+                var result = JsonConvert.DeserializeObject<CourseResult>(await courseResponse.Content.ReadAsStringAsync());
+                if (result != null)
+                {
+                    viewModel.Courses = result.Courses;
+                    viewModel.Pagination = new Pagination
+                    {
+                        PageSize = pageSize,
+                        CurrentPage = pageNumber,
+                        TotalPages = result.TotalPages,
+                        TotalCount = result.TotalCount,
+                    };
+                }
+
+            }
+
+
+            return View(viewModel);
         }
     }
 }
