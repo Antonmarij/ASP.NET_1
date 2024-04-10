@@ -7,12 +7,23 @@
     <header>
         <div class="container">
             <a class="logo" asp-action="Home" asp-controller="Default"><img src="~/images/logos/solid.svg" alt="Silicon" /></a>
-
+        @if (SignInManager.IsSignedIn(User) && user != null)
+        {
+            <nav>
+                <a asp-action="Home" asp-controller="Default" class="nav-link">Overview</a>
+                <a asp-action="Index" asp-controller="Courses" class="nav-link">Courses</a>
+                <a asp-action="Contact" asp-controller="Default" class="nav-link">Contact</a>
+            </nav>
+        }
+        else
+        {
             <nav>
                 <a asp-action="Home" asp-controller="Default" class="nav-link">Overview</a>
                 <a asp-action="Home" asp-controller="Default" class="nav-link">Features</a>
                 <a asp-action="Contact" asp-controller="Default" class="nav-link">Contact</a>
             </nav>
+        }
+       
 
             <div class="theme-switch">
                 <label for="theme-switch-mode">Light</label>
@@ -27,7 +38,6 @@
             @if (SignInManager.IsSignedIn(User) && user != null)
             {
                 <div class="profile">
-                    <a class="btn btn-theme" asp-action="SignOut" asp-controller="Auth">Sign out</a>
                     <div class="image">
                         <a asp-action="Details" asp-controller="Account">
                             <img src="@Configuration["FilePath:ProfileImagePath"]/@user.ProfileImage" alt="" />

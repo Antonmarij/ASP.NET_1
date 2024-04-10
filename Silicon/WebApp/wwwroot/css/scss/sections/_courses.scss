@@ -10,7 +10,6 @@
             align-items: center;
             margin-bottom: 1rem;
 
-
             h1 {
             }
 
@@ -20,10 +19,56 @@
                 align-items: center;
                 gap: 1.5rem;
 
+                .course-select {
+                    width: 20%;
+                    height: 50px;
+
+                }
+
+                .course-search {
+                    height: 50px;
+                    margin-right: 20px;
+                }
+
+                .fa-search {
+                    margin-left: -45px;
+                }
+                
+
+                
+
                 select {
+
                 }
 
                 input {
+
+                }
+            }
+        }
+
+        .banner {
+            background-color: var(--color-gray-100);
+            border-radius: 8px;
+            padding: 20px;
+            display: flex;
+
+            .banner-text {
+                margin-left: 10%;
+                padding-top: 20px;
+            }
+
+
+            .banner-img {
+                margin-left: 20%;
+            }
+
+
+            .btn-theme {
+                margin-top: 40px;   
+                &:hover {
+                    background-color: var(--color-gray-100);
+                    cursor: pointer;
                 }
             }
         }

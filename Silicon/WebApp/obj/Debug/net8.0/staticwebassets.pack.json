@@ -73,6 +73,10 @@
       "PackagePath": "staticwebassets\\css\\scss\\sections\\_contact.scss"
     },
     {
+      "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_courses.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\sections\\_courses.scss"
+    },
+    {
       "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_error.scss",
       "PackagePath": "staticwebassets\\css\\scss\\sections\\_error.scss"
     },
@@ -99,6 +103,10 @@
     {
       "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_newsletter.scss",
       "PackagePath": "staticwebassets\\css\\scss\\sections\\_newsletter.scss"
+    },
+    {
+      "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_pagination.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\sections\\_pagination.scss"
     },
     {
       "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_security.scss",
@@ -161,40 +169,44 @@
       "PackagePath": "staticwebassets\\images\\brands\\brand-logo_4.svg"
     },
     {
-      "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\courses\\course_1.svg.svg",
-      "PackagePath": "staticwebassets\\images\\courses\\course_1.svg.svg"
+      "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\courses\\banner-image.svg",
+      "PackagePath": "staticwebassets\\images\\courses\\banner-image.svg"
     },
     {
-      "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\courses\\course_2.svg.svg",
-      "PackagePath": "staticwebassets\\images\\courses\\course_2.svg.svg"
+      "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\courses\\course_1.svg",
+      "PackagePath": "staticwebassets\\images\\courses\\course_1.svg"
     },
     {
-      "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\courses\\course_3.svg.svg",
-      "PackagePath": "staticwebassets\\images\\courses\\course_3.svg.svg"
+      "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\courses\\course_2.svg",
+      "PackagePath": "staticwebassets\\images\\courses\\course_2.svg"
     },
     {
-      "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\courses\\course_4.svg.svg",
-      "PackagePath": "staticwebassets\\images\\courses\\course_4.svg.svg"
+      "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\courses\\course_3.svg",
+      "PackagePath": "staticwebassets\\images\\courses\\course_3.svg"
     },
     {
-      "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\courses\\course_5.svg.svg",
-      "PackagePath": "staticwebassets\\images\\courses\\course_5.svg.svg"
+      "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\courses\\course_4.svg",
+      "PackagePath": "staticwebassets\\images\\courses\\course_4.svg"
     },
     {
-      "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\courses\\course_6.svg.svg",
-      "PackagePath": "staticwebassets\\images\\courses\\course_6.svg.svg"
+      "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\courses\\course_5.svg",
+      "PackagePath": "staticwebassets\\images\\courses\\course_5.svg"
     },
     {
-      "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\courses\\course_7.svg.svg",
-      "PackagePath": "staticwebassets\\images\\courses\\course_7.svg.svg"
+      "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\courses\\course_6.svg",
+      "PackagePath": "staticwebassets\\images\\courses\\course_6.svg"
     },
     {
-      "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\courses\\course_8.svg.svg",
-      "PackagePath": "staticwebassets\\images\\courses\\course_8.svg.svg"
+      "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\courses\\course_7.svg",
+      "PackagePath": "staticwebassets\\images\\courses\\course_7.svg"
     },
     {
-      "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\courses\\course_9.svg.svg",
-      "PackagePath": "staticwebassets\\images\\courses\\course_9.svg.svg"
+      "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\courses\\course_8.svg",
+      "PackagePath": "staticwebassets\\images\\courses\\course_8.svg"
+    },
+    {
+      "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\courses\\course_9.svg",
+      "PackagePath": "staticwebassets\\images\\courses\\course_9.svg"
     },
     {
       "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\images\\icons\\404.svg",
@@ -327,6 +339,182 @@
     {
       "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\uploads\\p_ab2f17e4-d18c-4e42-9d05-db40d50203ea_db56acfb-958a-43ca-ae63-2bca07006c54.png",
       "PackagePath": "staticwebassets\\uploads\\p_ab2f17e4-d18c-4e42-9d05-db40d50203ea_db56acfb-958a-43ca-ae63-2bca07006c54.png"
+    },
+    {
+      "Id": "C:\\Users\\anton\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\anton\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\anton\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\anton\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\anton\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\anton\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\anton\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\anton\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\anton\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\anton\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\anton\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\anton\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\anton\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\anton\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\anton\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\anton\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\anton\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\anton\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\anton\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\anton\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\anton\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\anton\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\anton\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\anton\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\anton\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\anton\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\anton\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\anton\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\anton\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\anton\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\anton\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\anton\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\anton\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\anton\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\anton\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\anton\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\anton\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\anton\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\anton\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\anton\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\anton\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\anton\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\anton\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\anton\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js.map"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebApp.Microsoft.AspNetCore.StaticWebAssets.props",

@@ -10,10 +10,9 @@
             <h1>Courses</h1>
             <form class="filters">
 
-                <div class="select">
+                @* <div class="select">
                     <div class="selected">All categories</div>
                     <div class="select-options">
-                        <div class="option" data-value="all">All categories</div>
                         @if (Model.Categories != null)
                         {
                             @foreach (var category in Model.Categories)
@@ -22,10 +21,34 @@
                             }
                         }
                     </div>
-                </div>
+                </div> *@
+                @* <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown button
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        @if (Model.Categories != null)
+                        {
+                            @foreach (var category in Model.Categories)
+                            {
+                                
+                                <a class="dropdown-item" href="#" data-value="@category.CategoryName">@category.CategoryName</a>
+                            }
+                        }
+                    </div>
+                </div> *@
+                <select class="form-select course-select" aria-label="Default select example">
+                    @if (Model.Categories != null)
+                    {
+                        @foreach (var category in Model.Categories)
+                        {
+                            <option name="searchQuery" value="@category.CategoryName" data-value="@category.CategoryName">@category.CategoryName</option>
+                        }
+                    }
+                </select>
 
                 <div class="input-search-group">
-                    <input id="searchQuery" name="searchQuery" placeholder="Search courses" />
+                    <input class="course-search" id="searchQuery" name="searchQuery" placeholder="Search courses" />
                     <i class="fa-regular fa-search"></i>
                 </div>
             </form>
@@ -88,6 +111,17 @@
                 }
             </div>
         }
+
+        <div class="banner">
+            <div class="banner-text">
+                <p>Ready to get started?</p>
+                <h1>Take Your Skills to the Next Level</h1>
+                <button class="btn-theme">Work with us</button>
+            </div>
+            <div class="banner-img">
+                <img src="~/images/courses/banner-image.svg" />
+            </div>
+        </div>
 
     </div>
 </section>

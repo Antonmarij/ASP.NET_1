@@ -1148,6 +1148,37 @@ footer .container .copyright span {
   align-items: center;
   gap: 1.5rem;
 }
+.courses .container .header .filters .course-select {
+  width: 20%;
+  height: 50px;
+}
+.courses .container .header .filters .course-search {
+  height: 50px;
+  margin-right: 20px;
+}
+.courses .container .header .filters .fa-search {
+  margin-left: -45px;
+}
+.courses .container .banner {
+  background-color: var(--color-gray-100);
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+}
+.courses .container .banner .banner-text {
+  margin-left: 10%;
+  padding-top: 20px;
+}
+.courses .container .banner .banner-img {
+  margin-left: 20%;
+}
+.courses .container .banner .btn-theme {
+  margin-top: 40px;
+}
+.courses .container .banner .btn-theme:hover {
+  background-color: var(--color-gray-100);
+  cursor: pointer;
+}
 .courses .container .items {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
