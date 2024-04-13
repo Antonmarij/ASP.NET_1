@@ -103,3 +103,28 @@ btn-small {
     }
 }
 
+.btn-circle {
+    background: var(--color-white);
+    color: var(--color-gray-700);
+    padding: 8px 8px;
+    width: 44px;
+    height: 44px;
+    font-size: 14px;
+    border-radius: 50%;
+    border: 1px solid var(--color-gray-300);
+    box-shadow: 0 4px 4px -4px rgba(0,0,0,0.25);
+
+    i {
+        margin-top: 2px;
+        margin-right: 0;
+    }
+
+    &:hover {
+        cursor: pointer
+    }
+}
+
+.btn-circle-sm {
+    width: 30px;
+    height: 30px;
+}

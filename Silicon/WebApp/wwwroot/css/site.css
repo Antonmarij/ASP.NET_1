@@ -330,6 +330,30 @@ btn-small {
   border: 1px solid var(--color-gray-900);
 }
 
+.btn-circle {
+  background: var(--color-white);
+  color: var(--color-gray-700);
+  padding: 8px 8px;
+  width: 44px;
+  height: 44px;
+  font-size: 14px;
+  border-radius: 50%;
+  border: 1px solid var(--color-gray-300);
+  box-shadow: 0 4px 4px -4px rgba(0, 0, 0, 0.25);
+}
+.btn-circle i {
+  margin-top: 2px;
+  margin-right: 0;
+}
+.btn-circle:hover {
+  cursor: pointer;
+}
+
+.btn-circle-sm {
+  width: 30px;
+  height: 30px;
+}
+
 .theme-switch .switch {
   position: relative;
   display: inline-block;
@@ -1099,6 +1123,78 @@ footer .container .copyright span {
   width: 100%;
 }
 
+.account {
+  height: 100%;
+  padding: 2rem 0;
+}
+.account .container {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 350px 1fr;
+}
+.account .container aside {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 2rem;
+  border-right: 1px solid var(--color-gray-400);
+}
+.account .container aside .account-nav {
+  margin-top: 2rem;
+}
+.account .container aside .account-nav .btn-theme {
+  margin-bottom: 10px;
+  font-size: 16px;
+  width: 100%;
+  box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.1);
+}
+.account .container aside .account-nav .btn-theme-secondary {
+  background-color: var(--color-white);
+  border: none;
+}
+.account .container aside .account-nav .btn-theme-secondary:hover {
+  background-color: var(--color-gray-400);
+}
+.account .container main {
+  padding: 1rem 2rem;
+}
+.account .btn {
+  background-color: transparent;
+  border: 1px solid transparent;
+  color: var(--color-gray-800);
+  outline: none;
+  border-radius: 8px;
+  padding: 12px 25px;
+  transition: background 0.15s ease-in-out, color 0.15s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.account .btn i {
+  margin-right: 1rem;
+}
+.account .btn:hover {
+  border: 1px solid var(--color-gray-800);
+  background-color: var(--color-gray-800);
+  color: var(--color-gray-100);
+  text-decoration: none;
+}
+.account .btn-nav {
+  padding: 8px 0;
+  font-size: 16px;
+}
+.account .btn-nav.active {
+  border: 1px solid var(--color-theme);
+  background-color: var(--color-theme);
+  color: var(--color-white);
+}
+.account .btn-nav:hover {
+  border: 1px solid var(--color-gray-800);
+  background-color: var(--color-gray-800);
+  color: var(--color-gray-100);
+  text-decoration: none;
+}
+
 .account-profile .profile {
   display: flex;
   justify-content: center;
@@ -1130,6 +1226,71 @@ footer .container .copyright span {
 }
 .account-profile .info .email {
   font-size: 0.8em;
+}
+
+.account-details .container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+.account-details .container .separator {
+  border: none;
+  border-top: 1px solid #ccc;
+  width: 100%;
+}
+.account-details form .basic-form {
+  margin-top: 30px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "firstname lastname" "email phone" "bio bio" "submit submit";
+}
+.account-details form .basic-form .input-firstname {
+  grid-area: firstname;
+}
+.account-details form .basic-form .input-lastname {
+  grid-area: lastname;
+}
+.account-details form .basic-form .input-email {
+  grid-area: email;
+}
+.account-details form .basic-form .input-number {
+  grid-area: phone;
+}
+.account-details form .basic-form .input-bio {
+  grid-area: bio;
+}
+.account-details form .basic-form button {
+  grid-area: submit;
+}
+.account-details form .address-form {
+  margin-top: 30px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "addressone addressone" "addresstwo addresstwo" "postalcode city" "submit submit";
+}
+.account-details form .address-form .input-address-one {
+  grid-area: addressone;
+}
+.account-details form .address-form .input-address-two {
+  grid-area: addresstwo;
+}
+.account-details form .address-form .input-postalcode {
+  grid-area: postalcode;
+}
+.account-details form .address-form .input-city {
+  grid-area: city;
+}
+.account-details form .address-form button {
+  grid-area: submit;
+}
+.account-details form button:hover {
+  cursor: pointer;
+}
+.account-details form .btn-theme {
+  margin-left: 10px;
 }
 
 .courses {

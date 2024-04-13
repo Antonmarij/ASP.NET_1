@@ -17,9 +17,20 @@
             .account-nav {
                 margin-top: 2rem;
 
-                .btn {
+                .btn-theme {
                     margin-bottom: 10px;
                     font-size: 16px;
+                    width: 100%;
+                    box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.1);
+                }
+
+                .btn-theme-secondary {
+                    background-color: var(--color-white);
+                    border: none;
+
+                    &:hover {
+                        background-color: var(--color-gray-400);
+                    }
                 }
             }
         }

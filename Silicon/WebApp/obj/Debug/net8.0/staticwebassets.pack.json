@@ -57,6 +57,10 @@
       "PackagePath": "staticwebassets\\css\\scss\\cores\\_typography.scss"
     },
     {
+      "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_account-details.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\sections\\_account-details.scss"
+    },
+    {
       "Id": "C:\\Skola\\ASP.NET_1\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_account-profile.scss",
       "PackagePath": "staticwebassets\\css\\scss\\sections\\_account-profile.scss"
     },
